@@ -1,0 +1,225 @@
+---
+import PaperCardCompact from "./PaperCardCompact.astro";
+import type { Paper } from "../lib/data";
+
+interface Props {
+  papers: Paper[];
+  showTopic?: boolean;
+  idPrefix?: string;
+}
+
+const { papers, showTopic = true, idPrefix = "" } = Astro.props;
+
+const listId = `${idPrefix}papers-list`;
+const filterId = `${idPrefix}rating-filter`;
+const sortId = `${idPrefix}sort-select`;
+const countId = `${idPrefix}paper-count`;
+
+// Default order: alphabetical by title. JS re-sorts on demand.
+const initial = [...papers].sort((a, b) =>
+  a.title.toLowerCase().localeCompare(b.title.toLowerCase()),
+);
+---
+<div class="flex flex-wrap items-baseline gap-3 mb-3">
+  <h2 class="text-xs uppercase tracking-wider text-neutral-500 font-mono">All papers</h2>
+  <span id={countId} class="text-xs text-neutral-500 font-mono"></span>
+</div>
+
+<div class="flex flex-wrap items-center gap-x-6 gap-y-3 mb-4 text-sm">
+  <div class="flex items-center gap-2">
+    <span class="text-xs uppercase tracking-wider text-neutral-500 font-mono">Min rating</span>
+    <div id={filterId} class="flex flex-wrap gap-1">
+      <button
+        type="button"
+        data-min="0"
+        class="rating-chip px-2 py-0.5 text-xs rounded-full border border-amber-400 text-amber-400 font-mono"
+        aria-pressed="true"
+      >All</button>
+      <button
+        type="button"
+        data-min="6"
+        class="rating-chip px-2 py-0.5 text-xs rounded-full border border-neutral-800 text-neutral-400 hover:border-amber-400 hover:text-amber-400 font-mono"
+        aria-pressed="false"
+      >≥6</button>
+      <button
+        type="button"
+        data-min="7"
+        class="rating-chip px-2 py-0.5 text-xs rounded-full border border-neutral-800 text-neutral-400 hover:border-amber-400 hover:text-amber-400 font-mono"
+        aria-pressed="false"
+      >≥7</button>
+      <button
+        type="button"
+        data-min="8"
+        class="rating-chip px-2 py-0.5 text-xs rounded-full border border-neutral-800 text-neutral-400 hover:border-amber-400 hover:text-amber-400 font-mono"
+        aria-pressed="false"
+      >≥8</button>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <label for={sortId} class="text-xs uppercase tracking-wider text-neutral-500 font-mono">Sort</label>
+    <select
+      id={sortId}
+      class="bg-neutral-900 border border-neutral-800 rounded px-2 py-1 text-xs text-neutral-200 font-mono focus:outline-none focus:border-amber-400"
+    >
+      <option value="title">Title (A–Z)</option>
+      <option value="rating-desc">Rating (high → low)</option>
+      <option value="rating-asc">Rating (low → high)</option>
+      <option value="schedule">Schedule</option>
+    </select>
+  </div>
+</div>
+
+<div id={listId}>
+  {initial.map((p) => (
+    <div
+      class="paper-row"
+      data-title={p.title.toLowerCase()}
+      data-authors={p.authors.join(" ").toLowerCase()}
+      data-rating={p.ratings_avg ?? ""}
+      data-date={p.session_date ?? ""}
+      data-start={p.session_start ?? ""}
+    >
+      <PaperCardCompact paper={p} showTopic={showTopic} />
+    </div>
+  ))}
+</div>
+
+<script define:vars={{ listId, filterId, sortId, countId }}>
+  const list = document.getElementById(listId);
+  const filter = document.getElementById(filterId);
+  const sortSelect = document.getElementById(sortId);
+  const countEl = document.getElementById(countId);
+  if (list && filter && sortSelect && countEl) {
+    const rows = Array.from(list.querySelectorAll(".paper-row"));
+
+    const SORT_KEY = "papers:sort";
+    const MIN_KEY = "papers:minRating";
+    const VALID_SORTS = new Set(["title", "rating-desc", "rating-asc", "schedule"]);
+    const VALID_MINS = new Set([0, 6, 7, 8]);
+
+    let storedSort = null;
+    let storedMin = null;
+    try {
+      storedSort = sessionStorage.getItem(SORT_KEY);
+      const raw = sessionStorage.getItem(MIN_KEY);
+      if (raw !== null) storedMin = parseFloat(raw);
+    } catch {}
+
+    let minRating =
+      storedMin !== null && VALID_MINS.has(storedMin) ? storedMin : 0;
+    let sortKey = storedSort && VALID_SORTS.has(storedSort) ? storedSort : "title";
+
+    const ratingOf = (row) => {
+      const r = parseFloat(row.dataset.rating ?? "");
+      return Number.isNaN(r) ? null : r;
+    };
+
+    const byTitle = (a, b) =>
+      (a.dataset.title ?? "").localeCompare(b.dataset.title ?? "");
+
+    let query = "";
+
+    function matchesQuery(row) {
+      if (!query) return true;
+      return (
+        (row.dataset.title ?? "").includes(query) ||
+        (row.dataset.authors ?? "").includes(query)
+      );
+    }
+
+    function applyFilter() {
+      let visible = 0;
+      for (const row of rows) {
+        const r = ratingOf(row);
+        const ratingOk = minRating === 0 || (r !== null && r >= minRating);
+        const ok = ratingOk && matchesQuery(row);
+        row.style.display = ok ? "" : "none";
+        if (ok) visible++;
+      }
+      countEl.textContent =
+        visible === rows.length
+          ? `${rows.length} papers`
+          : `${visible} of ${rows.length} papers`;
+    }
+
+    window.addEventListener("papers:search", (e) => {
+      query = (e.detail?.q ?? "").toLowerCase().trim();
+      applyFilter();
+    });
+
+    function applySort() {
+      const sorted = [...rows];
+      if (sortKey === "title") {
+        sorted.sort(byTitle);
+      } else if (sortKey === "rating-desc" || sortKey === "rating-asc") {
+        const dir = sortKey === "rating-desc" ? -1 : 1;
+        sorted.sort((a, b) => {
+          const ra = ratingOf(a);
+          const rb = ratingOf(b);
+          if (ra === null && rb === null) return byTitle(a, b);
+          if (ra === null) return 1;
+          if (rb === null) return -1;
+          if (ra === rb) return byTitle(a, b);
+          return (ra - rb) * dir;
+        });
+      } else if (sortKey === "schedule") {
+        sorted.sort((a, b) => {
+          const da = a.dataset.date || "9999-99-99";
+          const db = b.dataset.date || "9999-99-99";
+          if (da !== db) return da.localeCompare(db);
+          const sa = a.dataset.start || "99:99";
+          const sb = b.dataset.start || "99:99";
+          if (sa !== sb) return sa.localeCompare(sb);
+          return byTitle(a, b);
+        });
+      }
+      for (const row of sorted) list.appendChild(row);
+    }
+
+    function setActiveChip(value) {
+      for (const b of filter.querySelectorAll("button[data-min]")) {
+        const active = parseFloat(b.dataset.min ?? "0") === value;
+        b.setAttribute("aria-pressed", active ? "true" : "false");
+        if (active) {
+          b.classList.remove(
+            "border-neutral-800",
+            "text-neutral-400",
+            "hover:border-amber-400",
+            "hover:text-amber-400",
+          );
+          b.classList.add("border-amber-400", "text-amber-400");
+        } else {
+          b.classList.remove("border-amber-400", "text-amber-400");
+          b.classList.add(
+            "border-neutral-800",
+            "text-neutral-400",
+            "hover:border-amber-400",
+            "hover:text-amber-400",
+          );
+        }
+      }
+    }
+
+    filter.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-min]");
+      if (!btn) return;
+      minRating = parseFloat(btn.dataset.min ?? "0");
+      setActiveChip(minRating);
+      try { sessionStorage.setItem(MIN_KEY, String(minRating)); } catch {}
+      applyFilter();
+    });
+
+    sortSelect.addEventListener("change", () => {
+      sortKey = sortSelect.value;
+      try { sessionStorage.setItem(SORT_KEY, sortKey); } catch {}
+      applySort();
+    });
+
+    // Restore persisted state before first paint.
+    setActiveChip(minRating);
+    sortSelect.value = sortKey;
+    applySort();
+    applyFilter();
+  }
+</script>

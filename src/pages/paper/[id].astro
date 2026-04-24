@@ -10,6 +10,7 @@ import {
   enrichedModel,
   formatSessionDate,
   formatSessionTime,
+  formatRating,
   type Paper,
   type Enrichment,
 } from "../../lib/data";
@@ -31,6 +32,7 @@ const model = enrichedModel || "Claude Haiku 4.5";
 
 const sessionDate = formatSessionDate(paper);
 const sessionTime = formatSessionTime(paper);
+const rating = formatRating(paper);
 
 // Related papers: same topic, up to 5.
 const related = papers
@@ -57,6 +59,9 @@ const issueUrl = `https://github.com/bmtlima/iclr-2026-oral/issues/new?title=${i
 
     <div class="mt-4 flex flex-wrap items-center gap-2 text-sm">
       <TopicPill slug={paper.topic_slug} size="sm" />
+      {paper.topic_slug_secondary && (
+        <TopicPill slug={paper.topic_slug_secondary} size="sm" />
+      )}
       {sessionDate && (
         <span class="text-neutral-400 font-mono text-xs">
           {sessionDate}{sessionTime ? ` · ${sessionTime}` : ""}{paper.room ? ` · ${paper.room}` : ""}
@@ -65,11 +70,19 @@ const issueUrl = `https://github.com/bmtlima/iclr-2026-oral/issues/new?title=${i
       {paper.match_method === "unmatched" && (
         <span class="text-neutral-500 text-xs italic">(session time not found on iclr.cc)</span>
       )}
+      {rating && (
+        <span class="text-neutral-400 font-mono text-xs">
+          <span class="text-neutral-500">Avg rating:</span> {rating}
+        </span>
+      )}
     </div>
 
     <div class="mt-4 flex flex-wrap gap-3 text-sm">
       {paper.openreview_url && (
         <a href={paper.openreview_url} class="no-underline text-amber-400 hover:underline">OpenReview ↗</a>
+      )}
+      {paper.arxiv_url && (
+        <a href={paper.arxiv_url} class="no-underline text-amber-400 hover:underline">arXiv ↗</a>
       )}
       {paper.pdf_url && (
         <a href={paper.pdf_url} class="no-underline text-amber-400 hover:underline">PDF ↗</a>

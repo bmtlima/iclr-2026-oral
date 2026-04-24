@@ -48,6 +48,41 @@ def main() -> int:
         topic_counts[p["topic_slug"]] = topic_counts.get(p["topic_slug"], 0) + 1
     print(f"[stage1]   topic distribution: {topic_counts}")
 
+    # Merge arXiv matches (optional; written by scripts/arxiv_match.py).
+    arxiv_path = DATA_DIR / "arxiv_matches.json"
+    arxiv_map: dict[str, dict] = {}
+    if arxiv_path.exists():
+        try:
+            arxiv_map = json.loads(arxiv_path.read_text()).get("matches", {}) or {}
+            have = sum(1 for v in arxiv_map.values() if v.get("arxiv_id"))
+            print(f"[stage1]   merging arXiv matches: {have}/{len(arxiv_map)} with IDs")
+        except Exception as e:
+            print(f"[stage1]   WARNING could not read {arxiv_path.name}: {e}")
+            arxiv_map = {}
+    for p in papers:
+        entry = arxiv_map.get(p["id"]) or {}
+        p["arxiv_id"] = entry.get("arxiv_id")
+        p["arxiv_url"] = entry.get("arxiv_url")
+        p["arxiv_match_confidence"] = entry.get("match_confidence")
+
+    # Merge reviewer ratings (optional; written by scripts/fetch_ratings.py).
+    ratings_path = DATA_DIR / "ratings.json"
+    ratings_map: dict[str, dict] = {}
+    if ratings_path.exists():
+        try:
+            ratings_map = json.loads(ratings_path.read_text()).get("ratings", {}) or {}
+            have = sum(1 for v in ratings_map.values() if v.get("ratings_n"))
+            print(f"[stage1]   merging ratings: {have}/{len(ratings_map)} with reviews")
+        except Exception as e:
+            print(f"[stage1]   WARNING could not read {ratings_path.name}: {e}")
+            ratings_map = {}
+    for p in papers:
+        entry = ratings_map.get(p["id"]) or {}
+        p["ratings_avg"] = entry.get("ratings_avg")
+        p["ratings_min"] = entry.get("ratings_min")
+        p["ratings_max"] = entry.get("ratings_max")
+        p["ratings_n"] = entry.get("ratings_n", 0)
+
     # Stable ordering: by session_date then title (unknowns last).
     papers.sort(key=lambda p: (
         p.get("session_date") or "9999-99-99",

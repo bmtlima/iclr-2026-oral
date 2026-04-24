@@ -6,7 +6,7 @@ const docsJson = JSON.stringify(documents);
   <input
     id="search-input"
     type="search"
-    placeholder="Search papers  (press /)"
+    placeholder="Search papers or authors  (press /)"
     class="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-1.5 text-sm text-neutral-200 placeholder:text-neutral-500 focus:outline-none focus:border-amber-400"
     autocomplete="off"
     spellcheck="false"
@@ -28,6 +28,7 @@ const docsJson = JSON.stringify(documents);
     id: string;
     title: string;
     authors: string;
+    authors_display: string;
     tldr: string;
     summary: string;
     keywords: string;
@@ -40,10 +41,10 @@ const docsJson = JSON.stringify(documents);
   const docs: Doc[] = JSON.parse(raw);
 
   const mini = new MiniSearch({
-    fields: ["title", "authors", "tldr", "summary", "keywords", "topic"],
-    storeFields: ["id", "title", "authors", "topic", "date", "room"],
+    fields: ["title", "authors", "tldr", "summary", "keywords", "topic", "arxiv_id"],
+    storeFields: ["id", "title", "authors_display", "topic", "date", "room"],
     searchOptions: {
-      boost: { title: 3, summary: 1.8, tldr: 1.5, authors: 1.2 },
+      boost: { title: 3, authors: 2.5, arxiv_id: 2.5, summary: 1.8, tldr: 1.5 },
       fuzzy: 0.2,
       prefix: true,
       combineWith: "AND",
@@ -73,6 +74,7 @@ const docsJson = JSON.stringify(documents);
         (h) => `
           <a href="/paper/${h.id}/" class="block px-3 py-2 border-b border-neutral-900 last:border-b-0 no-underline hover:bg-neutral-900">
             <div class="text-neutral-100 leading-snug">${escapeHtml(h.title)}</div>
+            ${h.authors_display ? `<div class="text-xs text-neutral-400 mt-0.5">${escapeHtml(h.authors_display)}</div>` : ""}
             <div class="text-xs text-neutral-500 mt-0.5 flex flex-wrap gap-2">
               <span>${escapeHtml(h.topic || "")}</span>
               ${h.date ? `<span>${escapeHtml(h.date)}</span>` : ""}
@@ -93,10 +95,14 @@ const docsJson = JSON.stringify(documents);
   }
 
   let lastQuery = "";
+  function broadcast(q: string) {
+    window.dispatchEvent(new CustomEvent("papers:search", { detail: { q } }));
+  }
   input?.addEventListener("input", () => {
     const q = input.value.trim();
     if (q === lastQuery) return;
     lastQuery = q;
+    broadcast(q);
     if (!q) {
       render([], "");
       return;
@@ -124,6 +130,8 @@ const docsJson = JSON.stringify(documents);
     } else if (e.key === "Escape" && active === input) {
       input?.blur();
       if (input) input.value = "";
+      lastQuery = "";
+      broadcast("");
       render([], "");
     }
   });

@@ -86,3 +86,37 @@ def flatten_note(note: dict[str, Any]) -> dict[str, Any]:
 def fetch_all_oral_papers() -> list[dict[str, Any]]:
     notes = fetch_notes()
     return [flatten_note(n) for n in notes if n.get("id")]
+
+
+def fetch_forum_ratings(forum_id: str, timeout: float = 30.0, max_retries: int = 5) -> list[float]:
+    """Return the list of numeric ratings from Official_Review notes on a forum.
+
+    Retries with exponential backoff on 429/5xx.
+    """
+    notes: list[dict[str, Any]] = []
+    with httpx.Client(timeout=timeout) as client:
+        for attempt in range(max_retries):
+            resp = client.get(f"{API_BASE}/notes", params={"forum": forum_id})
+            if resp.status_code == 429 or resp.status_code >= 500:
+                backoff = min(60.0, 2.0 ** attempt)
+                time.sleep(backoff)
+                continue
+            resp.raise_for_status()
+            notes = resp.json().get("notes", []) or []
+            break
+        else:
+            resp.raise_for_status()  # re-raise last error
+
+    ratings: list[float] = []
+    for n in notes:
+        invs = n.get("invitations") or ([n.get("invitation")] if n.get("invitation") else [])
+        if not any("Official_Review" in str(i) for i in invs):
+            continue
+        raw = _val((n.get("content") or {}).get("rating"))
+        if raw is None:
+            continue
+        try:
+            ratings.append(float(raw))
+        except (TypeError, ValueError):
+            continue
+    return ratings

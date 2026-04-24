@@ -38,5 +38,37 @@ const canonical = new URL(pathname ?? Astro.url.pathname, Astro.site ?? "https:/
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Open all external links (anything with an absolute http(s) href whose host
+      // differs from this site's host) in a new tab. Internal links are left alone.
+      (function () {
+        var here = window.location.host;
+        function enhance(root) {
+          var links = root.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+          for (var i = 0; i < links.length; i++) {
+            var a = links[i];
+            try {
+              if (a.host && a.host !== here && !a.target) {
+                a.target = "_blank";
+                a.rel = (a.rel ? a.rel + " " : "") + "noopener noreferrer";
+              }
+            } catch (e) {}
+          }
+        }
+        enhance(document);
+        // Catch dynamically inserted links (e.g., search results), without depending
+        // on individual components remembering to call this.
+        var mo = new MutationObserver(function (records) {
+          for (var i = 0; i < records.length; i++) {
+            var added = records[i].addedNodes;
+            for (var j = 0; j < added.length; j++) {
+              var n = added[j];
+              if (n.nodeType === 1) enhance(n);
+            }
+          }
+        });
+        mo.observe(document.body, { childList: true, subtree: true });
+      })();
+    </script>
   </body>
 </html>

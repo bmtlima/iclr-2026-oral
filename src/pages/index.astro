@@ -1,16 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import PaperCardCompact from "../components/PaperCardCompact.astro";
-import TopicPill from "../components/TopicPill.astro";
+import PapersList from "../components/PapersList.astro";
 import { papers, topics, topicCount } from "../lib/data";
-
-// Sort by session date ascending; unknowns at the bottom.
-const sortedPapers = [...papers].sort((a, b) => {
-  const ad = a.session_date ?? "9999";
-  const bd = b.session_date ?? "9999";
-  if (ad !== bd) return ad.localeCompare(bd);
-  return (a.session_start ?? "").localeCompare(b.session_start ?? "");
-});
 
 const topicsWithCounts = topics
   .map((t) => ({ ...t, count: topicCount(t.slug) }))
@@ -43,11 +34,6 @@ const topicsWithCounts = topics
   </section>
 
   <section class="mt-10">
-    <h2 class="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-3">
-      All papers · chronological
-    </h2>
-    <div>
-      {sortedPapers.map((p) => <PaperCardCompact paper={p} />)}
-    </div>
+    <PapersList papers={papers} />
   </section>
 </Base>

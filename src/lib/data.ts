@@ -23,7 +23,15 @@ export interface Paper {
   match_confidence: number | null;
   match_method: MatchMethod;
   topic_slug: string;
-  topic_confidence: "auto" | "manual";
+  topic_confidence: "auto" | "manual" | "llm";
+  topic_slug_secondary?: string | null;
+  arxiv_id: string | null;
+  arxiv_url: string | null;
+  arxiv_match_confidence: number | null;
+  ratings_avg: number | null;
+  ratings_min: number | null;
+  ratings_max: number | null;
+  ratings_n: number;
 }
 
 export interface Topic {
@@ -126,4 +134,19 @@ export function firstAuthors(p: Paper, max: number = 3): string {
   const a = p.authors || [];
   if (a.length <= max) return a.join(", ");
   return a.slice(0, max).join(", ") + `, +${a.length - max}`;
+}
+
+export function formatRating(p: Paper): string | null {
+  if (p.ratings_n == null || p.ratings_n === 0) return null;
+  if (p.ratings_avg == null || p.ratings_min == null || p.ratings_max == null) return null;
+  const avg = p.ratings_avg.toFixed(2);
+  const fmt = (x: number) => (Number.isInteger(x) ? x.toString() : x.toFixed(1));
+  return `${avg} (${fmt(p.ratings_min)}–${fmt(p.ratings_max)})`;
+}
+
+export function leadAuthor(p: Paper): string | null {
+  const a = p.authors || [];
+  if (a.length === 0) return null;
+  if (a.length === 1) return a[0];
+  return `${a[0]} et al.`;
 }

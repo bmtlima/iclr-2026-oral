@@ -1,0 +1,1573 @@
+{
+  "generated_at": "2026-04-24T21:44:58+00:00",
+  "matches": {
+    "0FJYicpOj0": {
+      "arxiv_id": "2510.13094",
+      "arxiv_url": "https://arxiv.org/abs/2510.13094",
+      "checked_at": "2026-04-24T21:34:32+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Gaussian Certified Unlearning in High Dimensions: A Hypothesis Testing Approach"
+    },
+    "0jHyEKHDyx": {
+      "arxiv_id": "2510.04212",
+      "arxiv_url": "https://arxiv.org/abs/2510.04212",
+      "checked_at": "2026-04-24T21:38:34+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention"
+    },
+    "0nvQ5kHXf4": {
+      "arxiv_id": "2510.09160",
+      "arxiv_url": "https://arxiv.org/abs/2510.09160",
+      "checked_at": "2026-04-24T21:37:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Efficient Resource-Constrained Training of Transformers via Subspace Optimization"
+    },
+    "0wSlFpMsGb": {
+      "arxiv_id": "2506.01732",
+      "arxiv_url": "https://arxiv.org/abs/2506.01732",
+      "checked_at": "2026-04-24T21:39:54+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
+    },
+    "1448q0s3zZ": {
+      "arxiv_id": "2510.02276",
+      "arxiv_url": "https://arxiv.org/abs/2510.02276",
+      "checked_at": "2026-04-24T21:40:45+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "BioX-Bridge: Model Bridging for Unsupervised Cross-Modal Knowledge Transfer across Biosignals"
+    },
+    "1J63FJYJKg": {
+      "arxiv_id": "2601.22181",
+      "arxiv_url": "https://arxiv.org/abs/2601.22181",
+      "checked_at": "2026-04-24T21:39:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MrRoPE: Mixed-radix Rotary Position Embedding"
+    },
+    "22hBwIf7OC": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:42:48+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "2IftRjRB07": {
+      "arxiv_id": "2510.13678",
+      "arxiv_url": "https://arxiv.org/abs/2510.13678",
+      "checked_at": "2026-04-24T21:41:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "FlashWorld: High-quality 3D Scene Generation within Seconds"
+    },
+    "2YvbLQEdYt": {
+      "arxiv_id": "2506.02548",
+      "arxiv_url": "https://arxiv.org/abs/2506.02548",
+      "checked_at": "2026-04-24T21:43:19+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale"
+    },
+    "2eAGrunxVz": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:44:34+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "3JPAkwSVc4": {
+      "arxiv_id": "2604.21809",
+      "arxiv_url": "https://arxiv.org/abs/2604.21809",
+      "checked_at": "2026-04-24T21:43:33+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Quotient-Space Diffusion Models"
+    },
+    "3RQ863cRbx": {
+      "arxiv_id": "2506.15871",
+      "arxiv_url": "https://arxiv.org/abs/2506.15871",
+      "checked_at": "2026-04-24T21:40:41+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Visual symbolic mechanisms: Emergent symbol processing in vision language models"
+    },
+    "3VdSuh3sie": {
+      "arxiv_id": "2405.20836",
+      "arxiv_url": "https://arxiv.org/abs/2405.20836",
+      "checked_at": "2026-04-24T21:44:45+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Fast training of accurate physics-informed neural networks without gradient descent"
+    },
+    "3eTr9dGwJv": {
+      "arxiv_id": "2512.16909",
+      "arxiv_url": "https://arxiv.org/abs/2512.16909",
+      "checked_at": "2026-04-24T21:37:04+00:00",
+      "match_confidence": 99.5,
+      "matched_title": "MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning"
+    },
+    "5C3LljOEGC": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:38:41+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "5LMdnUdAoy": {
+      "arxiv_id": "2501.01317",
+      "arxiv_url": "https://arxiv.org/abs/2501.01317",
+      "checked_at": "2026-04-24T21:40:48+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective"
+    },
+    "5VXJPS1HoM": {
+      "arxiv_id": "2508.21048",
+      "arxiv_url": "https://arxiv.org/abs/2508.21048",
+      "checked_at": "2026-04-24T21:35:16+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning"
+    },
+    "6cEPDGaShH": {
+      "arxiv_id": "2603.08104",
+      "arxiv_url": "https://arxiv.org/abs/2603.08104",
+      "checked_at": "2026-04-24T21:32:54+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Invisible Safety Threat: Malicious Finetuning for LLM via Steganography"
+    },
+    "7WdY3Cojy9": {
+      "arxiv_id": "2505.12795",
+      "arxiv_url": "https://arxiv.org/abs/2505.12795",
+      "checked_at": "2026-04-24T21:39:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization"
+    },
+    "7cMzTpbJHC": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:37:30+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "7xjoTuaNmN": {
+      "arxiv_id": "2506.04178",
+      "arxiv_url": "https://arxiv.org/abs/2506.04178",
+      "checked_at": "2026-04-24T21:39:04+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "OpenThoughts: Data Recipes for Reasoning Models"
+    },
+    "80JylHgQn1": {
+      "arxiv_id": "2508.19209",
+      "arxiv_url": "https://arxiv.org/abs/2508.19209",
+      "checked_at": "2026-04-24T21:41:11+00:00",
+      "match_confidence": 95.0,
+      "matched_title": "OmniHuman-1.5: Instilling an Active Mind in Avatars via Cognitive Simulation"
+    },
+    "88ZLp7xYxw": {
+      "arxiv_id": "2510.16196",
+      "arxiv_url": "https://arxiv.org/abs/2510.16196",
+      "checked_at": "2026-04-24T21:40:18+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI"
+    },
+    "8MBYRZHVWT": {
+      "arxiv_id": "2506.08584",
+      "arxiv_url": "https://arxiv.org/abs/2506.08584",
+      "checked_at": "2026-04-24T21:44:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering"
+    },
+    "8NuN5UzXLC": {
+      "arxiv_id": "2509.22459",
+      "arxiv_url": "https://arxiv.org/abs/2509.22459",
+      "checked_at": "2026-04-24T21:34:06+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)"
+    },
+    "8bM7MkxJee": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:42:11+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "8dLexnao2h": {
+      "arxiv_id": "2509.25044",
+      "arxiv_url": "https://arxiv.org/abs/2509.25044",
+      "checked_at": "2026-04-24T21:41:05+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration"
+    },
+    "9C4gVbPqSy": {
+      "arxiv_id": "2510.23451",
+      "arxiv_url": "https://arxiv.org/abs/2510.23451",
+      "checked_at": "2026-04-24T21:38:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences"
+    },
+    "9Q0dNBYeEY": {
+      "arxiv_id": "2602.24283",
+      "arxiv_url": "https://arxiv.org/abs/2602.24283",
+      "checked_at": "2026-04-24T21:37:10+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation"
+    },
+    "9gw03JpKK4": {
+      "arxiv_id": "2602.11964",
+      "arxiv_url": "https://arxiv.org/abs/2602.11964",
+      "checked_at": "2026-04-24T21:38:01+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments"
+    },
+    "9jdQLmPUHW": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:32:47+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "A4Us8jxVGq": {
+      "arxiv_id": "2601.19208",
+      "arxiv_url": "https://arxiv.org/abs/2601.19208",
+      "checked_at": "2026-04-24T21:35:06+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Interpretability"
+    },
+    "AUXvYQlQLZ": {
+      "arxiv_id": "2510.15020",
+      "arxiv_url": "https://arxiv.org/abs/2510.15020",
+      "checked_at": "2026-04-24T21:36:30+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "The Coverage Principle: How Pre-Training Enables Post-Training"
+    },
+    "AZ6lqcvHLX": {
+      "arxiv_id": "2502.00639",
+      "arxiv_url": "https://arxiv.org/abs/2502.00639",
+      "checked_at": "2026-04-24T21:32:08+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer"
+    },
+    "Ae4eZpkXBX": {
+      "arxiv_id": "2511.18661",
+      "arxiv_url": "https://arxiv.org/abs/2511.18661",
+      "checked_at": "2026-04-24T21:33:49+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data"
+    },
+    "AufVSUgMUo": {
+      "arxiv_id": "2601.21475",
+      "arxiv_url": "https://arxiv.org/abs/2601.21475",
+      "checked_at": "2026-04-24T21:43:08+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Task-free Adaptive Meta Black-box Optimization"
+    },
+    "BVnIsh4Nz1": {
+      "arxiv_id": "2510.13117",
+      "arxiv_url": "https://arxiv.org/abs/2510.13117",
+      "checked_at": "2026-04-24T21:41:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "On the Reasoning Abilities of Masked Diffusion Language Models"
+    },
+    "BjElYlJKMj": {
+      "arxiv_id": "2503.07982",
+      "arxiv_url": "https://arxiv.org/abs/2503.07982",
+      "checked_at": "2026-04-24T21:42:51+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector"
+    },
+    "BlSH7gNQSq": {
+      "arxiv_id": "2602.24012",
+      "arxiv_url": "https://arxiv.org/abs/2602.24012",
+      "checked_at": "2026-04-24T21:41:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "InfoNCE Induces Gaussian Distribution"
+    },
+    "CCSPm6V5EF": {
+      "arxiv_id": "2510.18560",
+      "arxiv_url": "https://arxiv.org/abs/2510.18560",
+      "checked_at": "2026-04-24T21:44:52+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality"
+    },
+    "CfZLxT3zIZ": {
+      "arxiv_id": "2602.08040",
+      "arxiv_url": "https://arxiv.org/abs/2602.08040",
+      "checked_at": "2026-04-24T21:42:41+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability-Plasticity Tradeoff"
+    },
+    "CxiNICq0Rr": {
+      "arxiv_id": "2510.09312",
+      "arxiv_url": "https://arxiv.org/abs/2510.09312",
+      "checked_at": "2026-04-24T21:33:42+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Verifying Chain-of-Thought Reasoning via Its Computational Graph"
+    },
+    "DE5ZJtR4bg": {
+      "arxiv_id": "2603.06704",
+      "arxiv_url": "https://arxiv.org/abs/2603.06704",
+      "checked_at": "2026-04-24T21:35:26+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "On the Generalization Capacities of MLLMs for Spatial Intelligence"
+    },
+    "DM0Y0oL33T": {
+      "arxiv_id": "2510.13804",
+      "arxiv_url": "https://arxiv.org/abs/2510.13804",
+      "checked_at": "2026-04-24T21:37:20+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Generative Universal Verifier as Multimodal Meta-Reasoner"
+    },
+    "DkHt2K1g2Y": {
+      "arxiv_id": "2510.11369",
+      "arxiv_url": "https://arxiv.org/abs/2510.11369",
+      "checked_at": "2026-04-24T21:34:56+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment"
+    },
+    "EA80Zib9UI": {
+      "arxiv_id": "2603.13300",
+      "arxiv_url": "https://arxiv.org/abs/2603.13300",
+      "checked_at": "2026-04-24T21:43:05+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Safety-Guided Flow (SGF): A Unified Framework for Negative Guidance in Safe Generation"
+    },
+    "EJ680UQeZG": {
+      "arxiv_id": "2508.10480",
+      "arxiv_url": "https://arxiv.org/abs/2508.10480",
+      "checked_at": "2026-04-24T21:44:07+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Pinet: Optimizing hard-constrained neural networks with orthogonal projection layers"
+    },
+    "EQhUvWH78U": {
+      "arxiv_id": "2510.20886",
+      "arxiv_url": "https://arxiv.org/abs/2510.20886",
+      "checked_at": "2026-04-24T21:37:27+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People"
+    },
+    "FMjeC9Msws": {
+      "arxiv_id": "2510.13786",
+      "arxiv_url": "https://arxiv.org/abs/2510.13786",
+      "checked_at": "2026-04-24T21:42:01+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "The Art of Scaling Reinforcement Learning Compute for LLMs"
+    },
+    "FbssShlI4N": {
+      "arxiv_id": "2512.09914",
+      "arxiv_url": "https://arxiv.org/abs/2512.09914",
+      "checked_at": "2026-04-24T21:44:24+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows"
+    },
+    "FdkPOHlChS": {
+      "arxiv_id": "2511.20038",
+      "arxiv_url": "https://arxiv.org/abs/2511.20038",
+      "checked_at": "2026-04-24T21:38:44+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Softmax Transformers are Turing-Complete"
+    },
+    "FihSkzyxdv": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:38:48+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "FnaDv6SMd9": {
+      "arxiv_id": "2512.05327",
+      "arxiv_url": "https://arxiv.org/abs/2512.05327",
+      "checked_at": "2026-04-24T21:33:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Non-Convex Federated Optimization under Cost-Aware Client Selection"
+    },
+    "FtL9eEmU6v": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:39:38+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "G3uNHQpP7J": {
+      "arxiv_id": "2603.00618",
+      "arxiv_url": "https://arxiv.org/abs/2603.00618",
+      "checked_at": "2026-04-24T21:33:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Multi-Domain Riemannian Graph Gluing for Building Graph Foundation Models"
+    },
+    "Gk7gLAtVDO": {
+      "arxiv_id": "2510.01367",
+      "arxiv_url": "https://arxiv.org/abs/2510.01367",
+      "checked_at": "2026-04-24T21:35:09+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort"
+    },
+    "H6rDX4w6Al": {
+      "arxiv_id": "2602.08024",
+      "arxiv_url": "https://arxiv.org/abs/2602.08024",
+      "checked_at": "2026-04-24T21:36:03+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging"
+    },
+    "HQcCd0laFq": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:34:29+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "HTqGE0KcuF": {
+      "arxiv_id": "2506.21526",
+      "arxiv_url": "https://arxiv.org/abs/2506.21526",
+      "checked_at": "2026-04-24T21:41:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "WAFT: Warping-Alone Field Transforms for Optical Flow"
+    },
+    "HhThhjKyfw": {
+      "arxiv_id": "2507.17634",
+      "arxiv_url": "https://arxiv.org/abs/2507.17634",
+      "checked_at": "2026-04-24T21:37:34+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training"
+    },
+    "HwCvaJOiCj": {
+      "arxiv_id": "2603.15569",
+      "arxiv_url": "https://arxiv.org/abs/2603.15569",
+      "checked_at": "2026-04-24T21:40:11+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Mamba-3: Improved Sequence Modeling using State Space Principles"
+    },
+    "IZHk6BXBST": {
+      "arxiv_id": "2506.02618",
+      "arxiv_url": "https://arxiv.org/abs/2506.02618",
+      "checked_at": "2026-04-24T21:40:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Rodrigues Network for Learning Robot Actions"
+    },
+    "ItFuNJQGH4": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:42:25+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "JEGDp1E4OH": {
+      "arxiv_id": "2603.00873",
+      "arxiv_url": "https://arxiv.org/abs/2603.00873",
+      "checked_at": "2026-04-24T21:38:11+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains"
+    },
+    "JEYWpFGzvn": {
+      "arxiv_id": "2512.16975",
+      "arxiv_url": "https://arxiv.org/abs/2512.16975",
+      "checked_at": "2026-04-24T21:41:35+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression"
+    },
+    "JWx4DI2N8k": {
+      "arxiv_id": "2506.18841",
+      "arxiv_url": "https://arxiv.org/abs/2506.18841",
+      "checked_at": "2026-04-24T21:34:53+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning"
+    },
+    "Jb1WkNSfUB": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:33:38+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "KYdfvF2SZN": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:44:18+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "LCS1WsGvha": {
+      "arxiv_id": "2509.24282",
+      "arxiv_url": "https://arxiv.org/abs/2509.24282",
+      "checked_at": "2026-04-24T21:39:44+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
+    },
+    "LMsdys7t1L": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:43:40+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "LaVrNaBNwM": {
+      "arxiv_id": "2601.05724",
+      "arxiv_url": "https://arxiv.org/abs/2601.05724",
+      "checked_at": "2026-04-24T21:42:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding"
+    },
+    "M3CeHnZKNC": {
+      "arxiv_id": "2510.01290",
+      "arxiv_url": "https://arxiv.org/abs/2510.01290",
+      "checked_at": "2026-04-24T21:39:11+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models"
+    },
+    "M7TNf5J26u": {
+      "arxiv_id": "2510.21652",
+      "arxiv_url": "https://arxiv.org/abs/2510.21652",
+      "checked_at": "2026-04-24T21:40:08+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite"
+    },
+    "MS9nWFY7LG": {
+      "arxiv_id": "2511.07328",
+      "arxiv_url": "https://arxiv.org/abs/2511.07328",
+      "checked_at": "2026-04-24T21:36:47+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Q-RAG: Long Context Multi-step Retrieval via Value-based Embedder Training"
+    },
+    "Mf5AleTUVK": {
+      "arxiv_id": "2510.05592",
+      "arxiv_url": "https://arxiv.org/abs/2510.05592",
+      "checked_at": "2026-04-24T21:37:37+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "In-the-Flow Agentic System Optimization for Effective Planning and Tool Use"
+    },
+    "MgJUj9Sk3C": {
+      "arxiv_id": "2509.18487",
+      "arxiv_url": "https://arxiv.org/abs/2509.18487",
+      "checked_at": "2026-04-24T21:33:08+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference"
+    },
+    "MiV3WXDYJb": {
+      "arxiv_id": "2509.21990",
+      "arxiv_url": "https://arxiv.org/abs/2509.21990",
+      "checked_at": "2026-04-24T21:40:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "WAVE: Learning Unified & Versatile Audio-Visual Embeddings with Multimodal LLM"
+    },
+    "Ml8t8kQMUP": {
+      "arxiv_id": "2510.14073",
+      "arxiv_url": "https://arxiv.org/abs/2510.14073",
+      "checked_at": "2026-04-24T21:38:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Exploratory Causal Inference in SAEnce"
+    },
+    "MpeyjgWbKt": {
+      "arxiv_id": "2512.23447",
+      "arxiv_url": "https://arxiv.org/abs/2512.23447",
+      "checked_at": "2026-04-24T21:39:34+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss"
+    },
+    "MraQM41SNS": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:32:18+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "Ndnwg9oOQO": {
+      "arxiv_id": "2508.10711",
+      "arxiv_url": "https://arxiv.org/abs/2508.10711",
+      "checked_at": "2026-04-24T21:38:14+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale"
+    },
+    "OJupg4mDjS": {
+      "arxiv_id": "2506.04480",
+      "arxiv_url": "https://arxiv.org/abs/2506.04480",
+      "checked_at": "2026-04-24T21:33:35+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "On the Wasserstein Geodesic Principal Component Analysis of probability measures"
+    },
+    "ORv3SAzus1": {
+      "arxiv_id": "2507.05195",
+      "arxiv_url": "https://arxiv.org/abs/2507.05195",
+      "checked_at": "2026-04-24T21:43:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Train-before-Test Harmonizes Language Model Rankings"
+    },
+    "ObFVZGnSFN": {
+      "arxiv_id": "2509.25413",
+      "arxiv_url": "https://arxiv.org/abs/2509.25413",
+      "checked_at": "2026-04-24T21:35:43+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "DepthLM: Metric Depth From Vision Language Models"
+    },
+    "Oyfz6G0hmc": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:43:53+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "P0GOk5wslg": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:38:54+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "P5B97gZwRb": {
+      "arxiv_id": "2603.01771",
+      "arxiv_url": "https://arxiv.org/abs/2603.01771",
+      "checked_at": "2026-04-24T21:34:12+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Hyperparameter Trajectory Inference with Conditional Lagrangian Optimal Transport"
+    },
+    "PDBBYwd1LY": {
+      "arxiv_id": "2508.06361",
+      "arxiv_url": "https://arxiv.org/abs/2508.06361",
+      "checked_at": "2026-04-24T21:34:39+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts"
+    },
+    "PJdw4VBsXD": {
+      "arxiv_id": "2505.20065",
+      "arxiv_url": "https://arxiv.org/abs/2505.20065",
+      "checked_at": "2026-04-24T21:42:38+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety"
+    },
+    "PO2iULmu5e": {
+      "arxiv_id": "2602.22538",
+      "arxiv_url": "https://arxiv.org/abs/2602.22538",
+      "checked_at": "2026-04-24T21:34:19+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format"
+    },
+    "Q3yLIIkt7z": {
+      "arxiv_id": "2509.24882",
+      "arxiv_url": "https://arxiv.org/abs/2509.24882",
+      "checked_at": "2026-04-24T21:37:51+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime"
+    },
+    "QMItTyQW92": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:41:48+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "QqvQ3iAdpC": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:38:08+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "RQm2KQTM5r": {
+      "arxiv_id": "2507.19457",
+      "arxiv_url": "https://arxiv.org/abs/2507.19457",
+      "checked_at": "2026-04-24T21:38:38+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning"
+    },
+    "RtS4UqSmNt": {
+      "arxiv_id": "2504.02648",
+      "arxiv_url": "https://arxiv.org/abs/2504.02648",
+      "checked_at": "2026-04-24T21:34:22+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Steering the Herd: A Framework for LLM-based Control of Social Learning"
+    },
+    "S2Q00li155": {
+      "arxiv_id": "2602.00737",
+      "arxiv_url": "https://arxiv.org/abs/2602.00737",
+      "checked_at": "2026-04-24T21:40:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization"
+    },
+    "SAl337ZX5d": {
+      "arxiv_id": "2509.01082",
+      "arxiv_url": "https://arxiv.org/abs/2509.01082",
+      "checked_at": "2026-04-24T21:33:05+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "RefineStat: Efficient Exploration for Probabilistic Program Synthesis"
+    },
+    "SzXDuBN8M1": {
+      "arxiv_id": "2510.00739",
+      "arxiv_url": "https://arxiv.org/abs/2510.00739",
+      "checked_at": "2026-04-24T21:43:12+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning"
+    },
+    "Szh0ELyQxL": {
+      "arxiv_id": "2510.13025",
+      "arxiv_url": "https://arxiv.org/abs/2510.13025",
+      "checked_at": "2026-04-24T21:32:12+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Information Shapes Koopman Representation"
+    },
+    "T0EiEuhOOL": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:33:11+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "T5wkZJqzkz": {
+      "arxiv_id": "2511.18903",
+      "arxiv_url": "https://arxiv.org/abs/2511.18903",
+      "checked_at": "2026-04-24T21:38:05+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining"
+    },
+    "TLSUIyBIfs": {
+      "arxiv_id": "2510.27015",
+      "arxiv_url": "https://arxiv.org/abs/2510.27015",
+      "checked_at": "2026-04-24T21:36:50+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Quantitative Bounds for Length Generalization in Transformers"
+    },
+    "TgLW2DiRDG": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:41:08+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "TsdlOjcQNu": {
+      "arxiv_id": "2510.12000",
+      "arxiv_url": "https://arxiv.org/abs/2510.12000",
+      "checked_at": "2026-04-24T21:38:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "UALM: Unified Audio Language Model for Understanding, Generation and Reasoning"
+    },
+    "UIxHaAqFqQ": {
+      "arxiv_id": "2509.24496",
+      "arxiv_url": "https://arxiv.org/abs/2509.24496",
+      "checked_at": "2026-04-24T21:43:26+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "LLM DNA: Tracing Model Evolution via Functional Representations"
+    },
+    "URbsHlTK8c": {
+      "arxiv_id": "2510.04188",
+      "arxiv_url": "https://arxiv.org/abs/2510.04188",
+      "checked_at": "2026-04-24T21:33:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers"
+    },
+    "VJZ477R89F": {
+      "arxiv_id": "2509.16117",
+      "arxiv_url": "https://arxiv.org/abs/2509.16117",
+      "checked_at": "2026-04-24T21:33:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process"
+    },
+    "VKGTGGcwl6": {
+      "arxiv_id": "2505.06120",
+      "arxiv_url": "https://arxiv.org/abs/2505.06120",
+      "checked_at": "2026-04-24T21:35:23+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "LLMs Get Lost In Multi-Turn Conversation"
+    },
+    "VdLEaGPYWT": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:32:15+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "Vsgq2ldr4K": {
+      "arxiv_id": "2510.14901",
+      "arxiv_url": "https://arxiv.org/abs/2510.14901",
+      "checked_at": "2026-04-24T21:36:13+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Reasoning with Sampling: Your Base Model is Smarter Than You Think"
+    },
+    "WV7xIboTDK": {
+      "arxiv_id": "2508.19461",
+      "arxiv_url": "https://arxiv.org/abs/2508.19461",
+      "checked_at": "2026-04-24T21:43:01+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Reliable Weak-to-Strong Monitoring of LLM Agents"
+    },
+    "X96Ei9n34a": {
+      "arxiv_id": "2510.09212",
+      "arxiv_url": "https://arxiv.org/abs/2510.09212",
+      "checked_at": "2026-04-24T21:40:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Stable Video Infinity: Infinite-Length Video Generation with Error Recycling"
+    },
+    "X9D5MVpPJ9": {
+      "arxiv_id": "2510.03817",
+      "arxiv_url": "https://arxiv.org/abs/2510.03817",
+      "checked_at": "2026-04-24T21:41:18+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "TROLL: Trust Regions improve Reinforcement Learning for Large Language Models"
+    },
+    "XFw2EPRUUR": {
+      "arxiv_id": "2508.18672",
+      "arxiv_url": "https://arxiv.org/abs/2508.18672",
+      "checked_at": "2026-04-24T21:37:44+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks"
+    },
+    "XOPH34Extq": {
+      "arxiv_id": "2509.11950",
+      "arxiv_url": "https://arxiv.org/abs/2509.11950",
+      "checked_at": "2026-04-24T21:34:02+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "TabStruct: Measuring Structural Fidelity of Tabular Data"
+    },
+    "Y54P2BBPPh": {
+      "arxiv_id": "2510.08123",
+      "arxiv_url": "https://arxiv.org/abs/2510.08123",
+      "checked_at": "2026-04-24T21:34:49+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "High-dimensional Analysis of Synthetic Data Selection"
+    },
+    "Y9UAgPehqo": {
+      "arxiv_id": "2510.12764",
+      "arxiv_url": "https://arxiv.org/abs/2510.12764",
+      "checked_at": "2026-04-24T21:42:05+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "AnyUp: Universal Feature Upsampling"
+    },
+    "YsQM7sQl0j": {
+      "arxiv_id": "2503.01448",
+      "arxiv_url": "https://arxiv.org/abs/2503.01448",
+      "checked_at": "2026-04-24T21:34:46+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Generative Human Geometry Distribution"
+    },
+    "YuxgSGFaqb": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:39:08+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "Yxz92UuPLQ": {
+      "arxiv_id": "2510.19315",
+      "arxiv_url": "https://arxiv.org/abs/2510.19315",
+      "checked_at": "2026-04-24T21:40:38+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Transformers are Inherently Succinct"
+    },
+    "ZBj3Qp1bYg": {
+      "arxiv_id": "2507.02092",
+      "arxiv_url": "https://arxiv.org/abs/2507.02092",
+      "checked_at": "2026-04-24T21:40:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Energy-Based Transformers are Scalable Learners and Thinkers"
+    },
+    "ZfdnZhOP0k": {
+      "arxiv_id": "2510.19811",
+      "arxiv_url": "https://arxiv.org/abs/2510.19811",
+      "checked_at": "2026-04-24T21:43:43+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Hubble: a Model Suite to Advance the Study of LLM Memorization"
+    },
+    "ZgCCDwcGwn": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:38:18+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "Zunww3FHPU": {
+      "arxiv_id": "2505.22785",
+      "arxiv_url": "https://arxiv.org/abs/2505.22785",
+      "checked_at": "2026-04-24T21:41:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Navigating the Latent Space Dynamics of Neural Models"
+    },
+    "ZymCPON45y": {
+      "arxiv_id": "2603.02556",
+      "arxiv_url": "https://arxiv.org/abs/2603.02556",
+      "checked_at": "2026-04-24T21:39:48+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs"
+    },
+    "a4S1nQay3b": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:41:01+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "aJJppqAm6r": {
+      "arxiv_id": "2510.13063",
+      "arxiv_url": "https://arxiv.org/abs/2510.13063",
+      "checked_at": "2026-04-24T21:36:34+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "True Self-Supervised Novel View Synthesis is Transferable"
+    },
+    "aQKVfKOkR5": {
+      "arxiv_id": "2509.16084",
+      "arxiv_url": "https://arxiv.org/abs/2509.16084",
+      "checked_at": "2026-04-24T21:37:17+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Exploring Synthesizable Chemical Space with Iterative Pathway Refinements"
+    },
+    "b8TlYh6PN6": {
+      "arxiv_id": "2603.04780",
+      "arxiv_url": "https://arxiv.org/abs/2603.04780",
+      "checked_at": "2026-04-24T21:34:43+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning"
+    },
+    "b8avf4F2hn": {
+      "arxiv_id": "2601.00126",
+      "arxiv_url": "https://arxiv.org/abs/2601.00126",
+      "checked_at": "2026-04-24T21:40:35+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Compositional Diffusion with Guided Search for Long-Horizon Planning"
+    },
+    "bFYfV6c9zu": {
+      "arxiv_id": "2510.06179",
+      "arxiv_url": "https://arxiv.org/abs/2510.06179",
+      "checked_at": "2026-04-24T21:43:22+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Differentiable Model Predictive Control on the GPU"
+    },
+    "blJXE07r7I": {
+      "arxiv_id": "2509.20360",
+      "arxiv_url": "https://arxiv.org/abs/2509.20360",
+      "checked_at": "2026-04-24T21:42:08+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning"
+    },
+    "bojVI4l9Kn": {
+      "arxiv_id": "2511.05541",
+      "arxiv_url": "https://arxiv.org/abs/2511.05541",
+      "checked_at": "2026-04-24T21:36:17+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability"
+    },
+    "bt4Ahpemmi": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:44:01+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "btEiAfnLsX": {
+      "arxiv_id": "2510.20413",
+      "arxiv_url": "https://arxiv.org/abs/2510.20413",
+      "checked_at": "2026-04-24T21:42:55+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Why DPO is a Misspecified Estimator and How to Fix It"
+    },
+    "cDc95lucVL": {
+      "arxiv_id": "2603.13434",
+      "arxiv_url": "https://arxiv.org/abs/2603.13434",
+      "checked_at": "2026-04-24T21:33:56+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Modality-free Graph In-context Alignment"
+    },
+    "cMEnMVvMw9": {
+      "arxiv_id": "2505.19653",
+      "arxiv_url": "https://arxiv.org/abs/2505.19653",
+      "checked_at": "2026-04-24T21:35:36+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Token-Importance Guided Direct Preference Optimization"
+    },
+    "cReExMQLiK": {
+      "arxiv_id": "2510.08730",
+      "arxiv_url": "https://arxiv.org/abs/2510.08730",
+      "checked_at": "2026-04-24T21:35:46+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "How Reliable is Language Model Micro-Benchmarking?"
+    },
+    "cSDXx8V6K9": {
+      "arxiv_id": "2601.11675",
+      "arxiv_url": "https://arxiv.org/abs/2601.11675",
+      "checked_at": "2026-04-24T21:42:35+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Generating metamers of human scene understanding"
+    },
+    "cZrTMqYVL6": {
+      "arxiv_id": "2511.04638",
+      "arxiv_url": "https://arxiv.org/abs/2511.04638",
+      "checked_at": "2026-04-24T21:42:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Addressing divergent representations from causal interventions on neural networks"
+    },
+    "cj1MAx7lKs": {
+      "arxiv_id": "2511.20766",
+      "arxiv_url": "https://arxiv.org/abs/2511.20766",
+      "checked_at": "2026-04-24T21:43:50+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability"
+    },
+    "ck0aZTAnwK": {
+      "arxiv_id": "2509.14786",
+      "arxiv_url": "https://arxiv.org/abs/2509.14786",
+      "checked_at": "2026-04-24T21:38:51+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Pre-training under infinite compute"
+    },
+    "d3CISVVO6v": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:36:27+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "d7itDxMD1n": {
+      "arxiv_id": "2602.09929",
+      "arxiv_url": "https://arxiv.org/abs/2602.09929",
+      "checked_at": "2026-04-24T21:35:53+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Monocular Normal Estimation via Shading Sequence Estimation"
+    },
+    "dTWfCLSoyl": {
+      "arxiv_id": "2604.06169",
+      "arxiv_url": "https://arxiv.org/abs/2604.06169",
+      "checked_at": "2026-04-24T21:38:24+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "In-Place Test-Time Training"
+    },
+    "e7pAjJZJWb": {
+      "arxiv_id": "2506.16552",
+      "arxiv_url": "https://arxiv.org/abs/2506.16552",
+      "checked_at": "2026-04-24T21:33:59+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Revela: Dense Retriever Learning via Language Modeling"
+    },
+    "fm79KXJIUQ": {
+      "arxiv_id": "2509.01938",
+      "arxiv_url": "https://arxiv.org/abs/2509.01938",
+      "checked_at": "2026-04-24T21:36:44+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "EigenBench: A Comparative Behavioral Measure of Value Alignment"
+    },
+    "g88nt4ieTG": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:40:51+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "gJjRdLG5MY": {
+      "arxiv_id": "2510.08916",
+      "arxiv_url": "https://arxiv.org/abs/2510.08916",
+      "checked_at": "2026-04-24T21:36:20+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization"
+    },
+    "gdZ6J5hZzF": {
+      "arxiv_id": "2510.24966",
+      "arxiv_url": "https://arxiv.org/abs/2510.24966",
+      "checked_at": "2026-04-24T21:35:29+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Sequences of Logits Reveal the Low Rank Structure of Language Models"
+    },
+    "ghwxbTx7do": {
+      "arxiv_id": "2511.00040",
+      "arxiv_url": "https://arxiv.org/abs/2511.00040",
+      "checked_at": "2026-04-24T21:40:55+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Semi-Supervised Preference Optimization with Limited Feedback"
+    },
+    "gpsczXOsHn": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:41:51+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "h06l9w1clt": {
+      "arxiv_id": "2507.01957",
+      "arxiv_url": "https://arxiv.org/abs/2507.01957",
+      "checked_at": "2026-04-24T21:37:00+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation"
+    },
+    "hXNApWLBZG": {
+      "arxiv_id": "2602.12116",
+      "arxiv_url": "https://arxiv.org/abs/2602.12116",
+      "checked_at": "2026-04-24T21:35:56+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling"
+    },
+    "hit3hGBheP": {
+      "arxiv_id": "2509.23189",
+      "arxiv_url": "https://arxiv.org/abs/2509.23189",
+      "checked_at": "2026-04-24T21:44:55+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms"
+    },
+    "jHDZEUgS4r": {
+      "arxiv_id": "2506.04405",
+      "arxiv_url": "https://arxiv.org/abs/2506.04405",
+      "checked_at": "2026-04-24T21:40:25+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science"
+    },
+    "jY7fAo9rfK": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:32:05+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "k0Kb1ynFbt": {
+      "arxiv_id": "2502.07279",
+      "arxiv_url": "https://arxiv.org/abs/2502.07279",
+      "checked_at": "2026-04-24T21:39:41+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Exploratory Diffusion Model for Unsupervised Reinforcement Learning"
+    },
+    "k5nIOvYGCL": {
+      "arxiv_id": "2507.02259",
+      "arxiv_url": "https://arxiv.org/abs/2507.02259",
+      "checked_at": "2026-04-24T21:33:18+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent"
+    },
+    "kI27Niy4xY": {
+      "arxiv_id": "2510.13454",
+      "arxiv_url": "https://arxiv.org/abs/2510.13454",
+      "checked_at": "2026-04-24T21:35:33+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator"
+    },
+    "kMuQBgPIdg": {
+      "arxiv_id": "2509.15927",
+      "arxiv_url": "https://arxiv.org/abs/2509.15927",
+      "checked_at": "2026-04-24T21:44:41+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search"
+    },
+    "kdeiRledV6": {
+      "arxiv_id": "2509.25827",
+      "arxiv_url": "https://arxiv.org/abs/2509.25827",
+      "checked_at": "2026-04-24T21:32:44+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling"
+    },
+    "kmK3WSCOCT": {
+      "arxiv_id": "2502.10178",
+      "arxiv_url": "https://arxiv.org/abs/2502.10178",
+      "checked_at": "2026-04-24T21:36:07+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "From Markov to Laplace: How Mamba In-Context Learns Markov Chains"
+    },
+    "kpLRYtPGt3": {
+      "arxiv_id": "2510.03597",
+      "arxiv_url": "https://arxiv.org/abs/2510.03597",
+      "checked_at": "2026-04-24T21:34:36+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Neon: Negative Extrapolation From Self-Training Improves Image Generation"
+    },
+    "krGpQzo8Mz": {
+      "arxiv_id": "2510.06195",
+      "arxiv_url": "https://arxiv.org/abs/2510.06195",
+      "checked_at": "2026-04-24T21:42:45+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Latent Speech-Text Transformer"
+    },
+    "l1cLdEjESj": {
+      "arxiv_id": "2509.24385",
+      "arxiv_url": "https://arxiv.org/abs/2509.24385",
+      "checked_at": "2026-04-24T21:36:54+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction-Reasoning Synergy"
+    },
+    "lAlI5FuIf7": {
+      "arxiv_id": "2509.23405",
+      "arxiv_url": "https://arxiv.org/abs/2509.23405",
+      "checked_at": "2026-04-24T21:41:41+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Planner Aware Path Learning in Diffusion Language Models Training"
+    },
+    "lKqE7UuMvp": {
+      "arxiv_id": "2603.01491",
+      "arxiv_url": "https://arxiv.org/abs/2603.01491",
+      "checked_at": "2026-04-24T21:36:10+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Radiometrically Consistent Gaussian Surfels for Inverse Rendering"
+    },
+    "lTaPtGiUUc": {
+      "arxiv_id": "2603.04553",
+      "arxiv_url": "https://arxiv.org/abs/2603.04553",
+      "checked_at": "2026-04-24T21:39:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling"
+    },
+    "lg6H2oJPky": {
+      "arxiv_id": "2603.19221",
+      "arxiv_url": "https://arxiv.org/abs/2603.19221",
+      "checked_at": "2026-04-24T21:43:30+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Online Learning and Equilibrium Computation with Ranking Feedback"
+    },
+    "m04JJNeRK6": {
+      "arxiv_id": "2506.07477",
+      "arxiv_url": "https://arxiv.org/abs/2506.07477",
+      "checked_at": "2026-04-24T21:44:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Premise Selection for a Lean Hammer"
+    },
+    "m5byThUSNE": {
+      "arxiv_id": "2510.20264",
+      "arxiv_url": "https://arxiv.org/abs/2510.20264",
+      "checked_at": "2026-04-24T21:44:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Optimistic Task Inference for Behavior Foundation Models"
+    },
+    "m6Hv0yZO3n": {
+      "arxiv_id": "2601.01082",
+      "arxiv_url": "https://arxiv.org/abs/2601.01082",
+      "checked_at": "2026-04-24T21:44:38+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces"
+    },
+    "mA78uXqcnl": {
+      "arxiv_id": "2508.11727",
+      "arxiv_url": "https://arxiv.org/abs/2508.11727",
+      "checked_at": "2026-04-24T21:35:39+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Causal Structure Learning in Hawkes Processes with Complex Latent Confounder Networks"
+    },
+    "mIeKe74W43": {
+      "arxiv_id": "2602.13810",
+      "arxiv_url": "https://arxiv.org/abs/2602.13810",
+      "checked_at": "2026-04-24T21:39:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation"
+    },
+    "mUIGdUTtk2": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:36:40+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "mX8b64iUaa": {
+      "arxiv_id": "2510.21450",
+      "arxiv_url": "https://arxiv.org/abs/2510.21450",
+      "checked_at": "2026-04-24T21:40:04+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models"
+    },
+    "mytIKuRsSE": {
+      "arxiv_id": "2510.18240",
+      "arxiv_url": "https://arxiv.org/abs/2510.18240",
+      "checked_at": "2026-04-24T21:34:15+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment"
+    },
+    "mzAchylAtf": {
+      "arxiv_id": "2509.24695",
+      "arxiv_url": "https://arxiv.org/abs/2509.24695",
+      "checked_at": "2026-04-24T21:37:24+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer"
+    },
+    "nCsF3Bsn2n": {
+      "arxiv_id": "2505.20274",
+      "arxiv_url": "https://arxiv.org/abs/2505.20274",
+      "checked_at": "2026-04-24T21:35:13+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Probabilistic Kernel Function for Fast Angle Testing"
+    },
+    "nHrYBGujps": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:39:18+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "o29E01Q6bv": {
+      "arxiv_id": "2510.19363",
+      "arxiv_url": "https://arxiv.org/abs/2510.19363",
+      "checked_at": "2026-04-24T21:36:24+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts"
+    },
+    "oIdzliJAeA": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:44:04+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "oZJFY2BQt2": {
+      "arxiv_id": "2602.18473",
+      "arxiv_url": "https://arxiv.org/abs/2602.18473",
+      "checked_at": "2026-04-24T21:41:45+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series"
+    },
+    "ogMxCjdCCq": {
+      "arxiv_id": "2604.17986",
+      "arxiv_url": "https://arxiv.org/abs/2604.17986",
+      "checked_at": "2026-04-24T21:44:48+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Latent Fourier Transform"
+    },
+    "pN261iTKvr": {
+      "arxiv_id": "2507.01037",
+      "arxiv_url": "https://arxiv.org/abs/2507.01037",
+      "checked_at": "2026-04-24T21:44:27+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Learning to Segment for Vehicle Routing Problems"
+    },
+    "pfw176o1YJ": {
+      "arxiv_id": "2509.26625",
+      "arxiv_url": "https://arxiv.org/abs/2509.26625",
+      "checked_at": "2026-04-24T21:39:01+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training"
+    },
+    "qCsbYJZRA5": {
+      "arxiv_id": "2505.17517",
+      "arxiv_url": "https://arxiv.org/abs/2505.17517",
+      "checked_at": "2026-04-24T21:43:36+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "The Spacetime of Diffusion Models: An Information Geometry Perspective"
+    },
+    "qNlTH4kYJZ": {
+      "arxiv_id": "2505.13531",
+      "arxiv_url": "https://arxiv.org/abs/2505.13531",
+      "checked_at": "2026-04-24T21:36:00+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference"
+    },
+    "qmCpJtFZra": {
+      "arxiv_id": "2603.27950",
+      "arxiv_url": "https://arxiv.org/abs/2603.27950",
+      "checked_at": "2026-04-24T21:44:14+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute"
+    },
+    "r2HG3xOMJI": {
+      "arxiv_id": "2505.12565",
+      "arxiv_url": "https://arxiv.org/abs/2505.12565",
+      "checked_at": "2026-04-24T21:37:40+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules"
+    },
+    "r8hzDA3pUY": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:33:01+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "rlZeILv3fm": {
+      "arxiv_id": "2507.13428",
+      "arxiv_url": "https://arxiv.org/abs/2507.13428",
+      "checked_at": "2026-04-24T21:42:28+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "\"PhyWorldBench\": A Comprehensive Evaluation of Physical Realism in Text-to-Video Models"
+    },
+    "sC6A1bFDUt": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:36:37+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "sSfep4udCb": {
+      "arxiv_id": "2510.14826",
+      "arxiv_url": "https://arxiv.org/abs/2510.14826",
+      "checked_at": "2026-04-24T21:42:21+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models"
+    },
+    "sjnErRHXf3": {
+      "arxiv_id": "2601.20279",
+      "arxiv_url": "https://arxiv.org/abs/2601.20279",
+      "checked_at": "2026-04-24T21:39:25+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Hallucination Begins Where Saliency Drops"
+    },
+    "symgW6FhA6": {
+      "arxiv_id": "2510.03257",
+      "arxiv_url": "https://arxiv.org/abs/2510.03257",
+      "checked_at": "2026-04-24T21:43:57+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Triple-BERT: Do We Really Need MARL for Order Dispatch on Ride-Sharing Platforms?"
+    },
+    "t38nZqqi3Z": {
+      "arxiv_id": "2505.16723",
+      "arxiv_url": "https://arxiv.org/abs/2505.16723",
+      "checked_at": "2026-04-24T21:33:52+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "LLM Fingerprinting via Semantically Conditioned Watermarks"
+    },
+    "tG6301ORHd": {
+      "arxiv_id": "2510.24702",
+      "arxiv_url": "https://arxiv.org/abs/2510.24702",
+      "checked_at": "2026-04-24T21:39:51+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents"
+    },
+    "uGai5lYHlV": {
+      "arxiv_id": "2506.19441",
+      "arxiv_url": "https://arxiv.org/abs/2506.19441",
+      "checked_at": "2026-04-24T21:38:31+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems"
+    },
+    "v1DKz5Vxr7": {
+      "arxiv_id": "2511.01266",
+      "arxiv_url": "https://arxiv.org/abs/2511.01266",
+      "checked_at": "2026-04-24T21:41:55+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls"
+    },
+    "v2PglvLLKT": {
+      "arxiv_id": "2505.20435",
+      "arxiv_url": "https://arxiv.org/abs/2505.20435",
+      "checked_at": "2026-04-24T21:33:25+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology"
+    },
+    "vEh1ceS154": {
+      "arxiv_id": "2505.18883",
+      "arxiv_url": "https://arxiv.org/abs/2505.18883",
+      "checked_at": "2026-04-24T21:37:47+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Partition Generative Modeling: Masked Modeling Without Masks"
+    },
+    "vH7OAPZ2dR": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:34:09+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "vLFqOoMBol": {
+      "arxiv_id": "2510.14086",
+      "arxiv_url": "https://arxiv.org/abs/2510.14086",
+      "checked_at": "2026-04-24T21:34:26+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Every Language Model Has a Forgery-Resistant Signature"
+    },
+    "vebqP5aioj": {
+      "arxiv_id": "2505.22475",
+      "arxiv_url": "https://arxiv.org/abs/2505.22475",
+      "checked_at": "2026-04-24T21:43:46+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Non-Asymptotic Analysis of (Sticky) Track-and-Stop"
+    },
+    "vnipyA8c9V": {
+      "arxiv_id": "2502.01481",
+      "arxiv_url": "https://arxiv.org/abs/2502.01481",
+      "checked_at": "2026-04-24T21:35:49+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Intrinsic Entropy of Context Length Scaling in LLMs"
+    },
+    "wSGle6ag5I": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:32:51+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "wbttgzp7MT": {
+      "arxiv_id": "2601.15668",
+      "arxiv_url": "https://arxiv.org/abs/2601.15668",
+      "checked_at": "2026-04-24T21:35:03+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning"
+    },
+    "wsnse46kRO": {
+      "arxiv_id": null,
+      "arxiv_url": null,
+      "checked_at": "2026-04-24T21:37:54+00:00",
+      "match_confidence": null,
+      "matched_title": null
+    },
+    "wwPSfcf5Pj": {
+      "arxiv_id": "2602.21550",
+      "arxiv_url": "https://arxiv.org/abs/2602.21550",
+      "checked_at": "2026-04-24T21:36:57+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction"
+    },
+    "x7aLhLMVn1": {
+      "arxiv_id": "2509.23102",
+      "arxiv_url": "https://arxiv.org/abs/2509.23102",
+      "checked_at": "2026-04-24T21:41:38+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Multiplayer Nash Preference Optimization"
+    },
+    "xBW2FIfswU": {
+      "arxiv_id": "2508.02879",
+      "arxiv_url": "https://arxiv.org/abs/2508.02879",
+      "checked_at": "2026-04-24T21:41:25+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data"
+    },
+    "xDLE5n3x9Y": {
+      "arxiv_id": "2510.18435",
+      "arxiv_url": "https://arxiv.org/abs/2510.18435",
+      "checked_at": "2026-04-24T21:42:18+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Overparametrization bends the landscape: BBP transitions at initialization in simple Neural Networks"
+    },
+    "y3oHMcoItR": {
+      "arxiv_id": "2601.01829",
+      "arxiv_url": "https://arxiv.org/abs/2601.01829",
+      "checked_at": "2026-04-24T21:42:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "RealPDEBench: A Benchmark for Complex Physical Systems with Real-World Data"
+    },
+    "yBFUqdJFZn": {
+      "arxiv_id": "2509.15221",
+      "arxiv_url": "https://arxiv.org/abs/2509.15221",
+      "checked_at": "2026-04-24T21:37:07+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data"
+    },
+    "yBpzF8hp3J": {
+      "arxiv_id": "2603.14016",
+      "arxiv_url": "https://arxiv.org/abs/2603.14016",
+      "checked_at": "2026-04-24T21:35:19+00:00",
+      "match_confidence": 95.0,
+      "matched_title": "Missing Mass for Differentially Private Domain Discovery"
+    },
+    "yDmb7xAfeb": {
+      "arxiv_id": "2510.18135",
+      "arxiv_url": "https://arxiv.org/abs/2510.18135",
+      "checked_at": "2026-04-24T21:39:14+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "World-in-World: World Models in a Closed-Loop World"
+    },
+    "yKDqg9HwZX": {
+      "arxiv_id": "2509.18095",
+      "arxiv_url": "https://arxiv.org/abs/2509.18095",
+      "checked_at": "2026-04-24T21:40:01+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction"
+    },
+    "yRtgZ1K8hO": {
+      "arxiv_id": "2505.16932",
+      "arxiv_url": "https://arxiv.org/abs/2505.16932",
+      "checked_at": "2026-04-24T21:37:14+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+    },
+    "yWwrgcBoK3": {
+      "arxiv_id": "2505.21936",
+      "arxiv_url": "https://arxiv.org/abs/2505.21936",
+      "checked_at": "2026-04-24T21:44:11+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments"
+    },
+    "yfM2e8Icsw": {
+      "arxiv_id": "2505.16567",
+      "arxiv_url": "https://arxiv.org/abs/2505.16567",
+      "checked_at": "2026-04-24T21:33:45+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Watch your steps: Dormant Adversarial Behaviors that Activate upon LLM Finetuning"
+    },
+    "yirunib8l8": {
+      "arxiv_id": "2511.10647",
+      "arxiv_url": "https://arxiv.org/abs/2511.10647",
+      "checked_at": "2026-04-24T21:34:59+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "Depth Anything 3: Recovering the Visual Space from Any Views"
+    },
+    "zrFnwRHuQo": {
+      "arxiv_id": "2507.06542",
+      "arxiv_url": "https://arxiv.org/abs/2507.06542",
+      "checked_at": "2026-04-24T21:32:58+00:00",
+      "match_confidence": 100.0,
+      "matched_title": "On the Surprising Effectiveness of a Single Global Merging in Decentralized Learning"
+    }
+  }
+}

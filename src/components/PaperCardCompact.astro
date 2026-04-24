@@ -1,6 +1,6 @@
 ---
 import type { Paper } from "../lib/data";
-import { enriched, formatSessionDate, formatSessionTime, firstAuthors } from "../lib/data";
+import { enriched, firstAuthors, formatRating, leadAuthor } from "../lib/data";
 import TopicPill from "./TopicPill.astro";
 
 interface Props {
@@ -10,8 +10,8 @@ interface Props {
 
 const { paper, showTopic = true } = Astro.props;
 const summary = enriched[paper.id]?.one_sentence_summary?.trim();
-const dateLabel = formatSessionDate(paper);
-const timeLabel = formatSessionTime(paper);
+const rating = formatRating(paper);
+const lead = leadAuthor(paper);
 ---
 <article class="py-3 border-b border-neutral-900 last:border-b-0">
   <div class="flex items-start justify-between gap-3">
@@ -33,9 +33,11 @@ const timeLabel = formatSessionTime(paper);
       </div>
     )}
   </div>
-  {(dateLabel || paper.room) && (
+  {(rating || lead) && (
     <div class="text-xs text-neutral-500 mt-1 font-mono">
-      {dateLabel}{timeLabel ? ` · ${timeLabel}` : ""}{paper.room ? ` · ${paper.room}` : ""}
+      {rating && <>Avg rating: {rating}</>}
+      {rating && lead && " · "}
+      {lead}
     </div>
   )}
 </article>

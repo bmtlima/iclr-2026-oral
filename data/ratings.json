@@ -1,0 +1,2892 @@
+{
+  "generated_at": "2026-04-24T21:42:41+00:00",
+  "ratings": {
+    "0FJYicpOj0": {
+      "forum": "0FJYicpOj0",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "0jHyEKHDyx": {
+      "forum": "0jHyEKHDyx",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        4.0,
+        8.0
+      ]
+    },
+    "0nvQ5kHXf4": {
+      "forum": "0nvQ5kHXf4",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "0wSlFpMsGb": {
+      "forum": "0wSlFpMsGb",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "1448q0s3zZ": {
+      "forum": "1448q0s3zZ",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0
+      ]
+    },
+    "1J63FJYJKg": {
+      "forum": "1J63FJYJKg",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "22hBwIf7OC": {
+      "forum": "22hBwIf7OC",
+      "ratings_avg": 5.33,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0
+      ]
+    },
+    "2IftRjRB07": {
+      "forum": "2IftRjRB07",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "2YvbLQEdYt": {
+      "forum": "2YvbLQEdYt",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "2eAGrunxVz": {
+      "forum": "2eAGrunxVz",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "3JPAkwSVc4": {
+      "forum": "3JPAkwSVc4",
+      "ratings_avg": 7.5,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        10.0,
+        8.0,
+        6.0
+      ]
+    },
+    "3RQ863cRbx": {
+      "forum": "3RQ863cRbx",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "3VdSuh3sie": {
+      "forum": "3VdSuh3sie",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        4.0
+      ]
+    },
+    "3eTr9dGwJv": {
+      "forum": "3eTr9dGwJv",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "5C3LljOEGC": {
+      "forum": "5C3LljOEGC",
+      "ratings_avg": 4.67,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        4.0
+      ]
+    },
+    "5LMdnUdAoy": {
+      "forum": "5LMdnUdAoy",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "5VXJPS1HoM": {
+      "forum": "5VXJPS1HoM",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        4.0
+      ]
+    },
+    "6cEPDGaShH": {
+      "forum": "6cEPDGaShH",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "7WdY3Cojy9": {
+      "forum": "7WdY3Cojy9",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        4.0,
+        4.0
+      ]
+    },
+    "7cMzTpbJHC": {
+      "forum": "7cMzTpbJHC",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "7xjoTuaNmN": {
+      "forum": "7xjoTuaNmN",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "80JylHgQn1": {
+      "forum": "80JylHgQn1",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "88ZLp7xYxw": {
+      "forum": "88ZLp7xYxw",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "8MBYRZHVWT": {
+      "forum": "8MBYRZHVWT",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "8NuN5UzXLC": {
+      "forum": "8NuN5UzXLC",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0,
+        8.0
+      ]
+    },
+    "8bM7MkxJee": {
+      "forum": "8bM7MkxJee",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        2.0,
+        8.0,
+        10.0
+      ]
+    },
+    "8dLexnao2h": {
+      "forum": "8dLexnao2h",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        10.0,
+        2.0
+      ]
+    },
+    "9C4gVbPqSy": {
+      "forum": "9C4gVbPqSy",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "9Q0dNBYeEY": {
+      "forum": "9Q0dNBYeEY",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "9gw03JpKK4": {
+      "forum": "9gw03JpKK4",
+      "ratings_avg": 8.0,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        10.0
+      ]
+    },
+    "9jdQLmPUHW": {
+      "forum": "9jdQLmPUHW",
+      "ratings_avg": 6.8,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        8.0,
+        4.0
+      ]
+    },
+    "A4Us8jxVGq": {
+      "forum": "A4Us8jxVGq",
+      "ratings_avg": 7.2,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "AUXvYQlQLZ": {
+      "forum": "AUXvYQlQLZ",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "AZ6lqcvHLX": {
+      "forum": "AZ6lqcvHLX",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "Ae4eZpkXBX": {
+      "forum": "Ae4eZpkXBX",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "AufVSUgMUo": {
+      "forum": "AufVSUgMUo",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        2.0
+      ]
+    },
+    "BVnIsh4Nz1": {
+      "forum": "BVnIsh4Nz1",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "BjElYlJKMj": {
+      "forum": "BjElYlJKMj",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "BlSH7gNQSq": {
+      "forum": "BlSH7gNQSq",
+      "ratings_avg": 4.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        2.0,
+        8.0,
+        2.0,
+        4.0
+      ]
+    },
+    "CCSPm6V5EF": {
+      "forum": "CCSPm6V5EF",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "CfZLxT3zIZ": {
+      "forum": "CfZLxT3zIZ",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "CxiNICq0Rr": {
+      "forum": "CxiNICq0Rr",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        8.0,
+        6.0
+      ]
+    },
+    "DE5ZJtR4bg": {
+      "forum": "DE5ZJtR4bg",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "DM0Y0oL33T": {
+      "forum": "DM0Y0oL33T",
+      "ratings_avg": 8.0,
+      "ratings_max": 8.0,
+      "ratings_min": 8.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "DkHt2K1g2Y": {
+      "forum": "DkHt2K1g2Y",
+      "ratings_avg": 5.0,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        4.0
+      ]
+    },
+    "EA80Zib9UI": {
+      "forum": "EA80Zib9UI",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0,
+        10.0
+      ]
+    },
+    "EJ680UQeZG": {
+      "forum": "EJ680UQeZG",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "EQhUvWH78U": {
+      "forum": "EQhUvWH78U",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        8.0
+      ]
+    },
+    "FMjeC9Msws": {
+      "forum": "FMjeC9Msws",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "FbssShlI4N": {
+      "forum": "FbssShlI4N",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        10.0,
+        6.0
+      ]
+    },
+    "FdkPOHlChS": {
+      "forum": "FdkPOHlChS",
+      "ratings_avg": 5.5,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        4.0,
+        2.0,
+        6.0
+      ]
+    },
+    "FihSkzyxdv": {
+      "forum": "FihSkzyxdv",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 6,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        2.0
+      ]
+    },
+    "FnaDv6SMd9": {
+      "forum": "FnaDv6SMd9",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "FtL9eEmU6v": {
+      "forum": "FtL9eEmU6v",
+      "ratings_avg": 7.5,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        10.0,
+        6.0
+      ]
+    },
+    "G3uNHQpP7J": {
+      "forum": "G3uNHQpP7J",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "Gk7gLAtVDO": {
+      "forum": "Gk7gLAtVDO",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "H6rDX4w6Al": {
+      "forum": "H6rDX4w6Al",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        4.0
+      ]
+    },
+    "HQcCd0laFq": {
+      "forum": "HQcCd0laFq",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0,
+        6.0
+      ]
+    },
+    "HTqGE0KcuF": {
+      "forum": "HTqGE0KcuF",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "HhThhjKyfw": {
+      "forum": "HhThhjKyfw",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        10.0,
+        2.0,
+        6.0
+      ]
+    },
+    "HwCvaJOiCj": {
+      "forum": "HwCvaJOiCj",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "IZHk6BXBST": {
+      "forum": "IZHk6BXBST",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        2.0
+      ]
+    },
+    "ItFuNJQGH4": {
+      "forum": "ItFuNJQGH4",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "JEGDp1E4OH": {
+      "forum": "JEGDp1E4OH",
+      "ratings_avg": 5.0,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0,
+        4.0
+      ]
+    },
+    "JEYWpFGzvn": {
+      "forum": "JEYWpFGzvn",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "JWx4DI2N8k": {
+      "forum": "JWx4DI2N8k",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "Jb1WkNSfUB": {
+      "forum": "Jb1WkNSfUB",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        8.0,
+        8.0
+      ]
+    },
+    "KYdfvF2SZN": {
+      "forum": "KYdfvF2SZN",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "LCS1WsGvha": {
+      "forum": "LCS1WsGvha",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "LMsdys7t1L": {
+      "forum": "LMsdys7t1L",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        4.0
+      ]
+    },
+    "LaVrNaBNwM": {
+      "forum": "LaVrNaBNwM",
+      "ratings_avg": 5.0,
+      "ratings_max": 8.0,
+      "ratings_min": 0.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        0.0,
+        6.0
+      ]
+    },
+    "M3CeHnZKNC": {
+      "forum": "M3CeHnZKNC",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "M7TNf5J26u": {
+      "forum": "M7TNf5J26u",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "MS9nWFY7LG": {
+      "forum": "MS9nWFY7LG",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        2.0
+      ]
+    },
+    "Mf5AleTUVK": {
+      "forum": "Mf5AleTUVK",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "MgJUj9Sk3C": {
+      "forum": "MgJUj9Sk3C",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        2.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "MiV3WXDYJb": {
+      "forum": "MiV3WXDYJb",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "Ml8t8kQMUP": {
+      "forum": "Ml8t8kQMUP",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "MpeyjgWbKt": {
+      "forum": "MpeyjgWbKt",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "MraQM41SNS": {
+      "forum": "MraQM41SNS",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "Ndnwg9oOQO": {
+      "forum": "Ndnwg9oOQO",
+      "ratings_avg": 4.5,
+      "ratings_max": 6.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        2.0,
+        6.0,
+        6.0
+      ]
+    },
+    "OJupg4mDjS": {
+      "forum": "OJupg4mDjS",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "ORv3SAzus1": {
+      "forum": "ORv3SAzus1",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "ObFVZGnSFN": {
+      "forum": "ObFVZGnSFN",
+      "ratings_avg": 6.67,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        10.0
+      ]
+    },
+    "Oyfz6G0hmc": {
+      "forum": "Oyfz6G0hmc",
+      "ratings_avg": 5.0,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        4.0,
+        6.0
+      ]
+    },
+    "P0GOk5wslg": {
+      "forum": "P0GOk5wslg",
+      "ratings_avg": 7.5,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        10.0,
+        6.0,
+        6.0
+      ]
+    },
+    "P5B97gZwRb": {
+      "forum": "P5B97gZwRb",
+      "ratings_avg": 4.0,
+      "ratings_max": 6.0,
+      "ratings_min": 2.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        2.0
+      ]
+    },
+    "PDBBYwd1LY": {
+      "forum": "PDBBYwd1LY",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "PJdw4VBsXD": {
+      "forum": "PJdw4VBsXD",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "PO2iULmu5e": {
+      "forum": "PO2iULmu5e",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        8.0
+      ]
+    },
+    "Q3yLIIkt7z": {
+      "forum": "Q3yLIIkt7z",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "QMItTyQW92": {
+      "forum": "QMItTyQW92",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "QqvQ3iAdpC": {
+      "forum": "QqvQ3iAdpC",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "RQm2KQTM5r": {
+      "forum": "RQm2KQTM5r",
+      "ratings_avg": 6.0,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        10.0,
+        6.0,
+        2.0,
+        6.0,
+        6.0
+      ]
+    },
+    "RtS4UqSmNt": {
+      "forum": "RtS4UqSmNt",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        2.0,
+        8.0
+      ]
+    },
+    "S2Q00li155": {
+      "forum": "S2Q00li155",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "SAl337ZX5d": {
+      "forum": "SAl337ZX5d",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "SzXDuBN8M1": {
+      "forum": "SzXDuBN8M1",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "Szh0ELyQxL": {
+      "forum": "Szh0ELyQxL",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "T0EiEuhOOL": {
+      "forum": "T0EiEuhOOL",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "T5wkZJqzkz": {
+      "forum": "T5wkZJqzkz",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "TLSUIyBIfs": {
+      "forum": "TLSUIyBIfs",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "TgLW2DiRDG": {
+      "forum": "TgLW2DiRDG",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "TsdlOjcQNu": {
+      "forum": "TsdlOjcQNu",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 6,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0,
+        2.0,
+        8.0
+      ]
+    },
+    "UIxHaAqFqQ": {
+      "forum": "UIxHaAqFqQ",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0,
+        6.0
+      ]
+    },
+    "URbsHlTK8c": {
+      "forum": "URbsHlTK8c",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "VJZ477R89F": {
+      "forum": "VJZ477R89F",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "VKGTGGcwl6": {
+      "forum": "VKGTGGcwl6",
+      "ratings_avg": 8.0,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        10.0,
+        6.0
+      ]
+    },
+    "VdLEaGPYWT": {
+      "forum": "VdLEaGPYWT",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        4.0
+      ]
+    },
+    "Vsgq2ldr4K": {
+      "forum": "Vsgq2ldr4K",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "WV7xIboTDK": {
+      "forum": "WV7xIboTDK",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "X96Ei9n34a": {
+      "forum": "X96Ei9n34a",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "X9D5MVpPJ9": {
+      "forum": "X9D5MVpPJ9",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "XFw2EPRUUR": {
+      "forum": "XFw2EPRUUR",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "XOPH34Extq": {
+      "forum": "XOPH34Extq",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        10.0
+      ]
+    },
+    "Y54P2BBPPh": {
+      "forum": "Y54P2BBPPh",
+      "ratings_avg": 5.33,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "Y9UAgPehqo": {
+      "forum": "Y9UAgPehqo",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "YsQM7sQl0j": {
+      "forum": "YsQM7sQl0j",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        2.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "YuxgSGFaqb": {
+      "forum": "YuxgSGFaqb",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0,
+        6.0
+      ]
+    },
+    "Yxz92UuPLQ": {
+      "forum": "Yxz92UuPLQ",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "ZBj3Qp1bYg": {
+      "forum": "ZBj3Qp1bYg",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        2.0
+      ]
+    },
+    "ZfdnZhOP0k": {
+      "forum": "ZfdnZhOP0k",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "ZgCCDwcGwn": {
+      "forum": "ZgCCDwcGwn",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "Zunww3FHPU": {
+      "forum": "Zunww3FHPU",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "ZymCPON45y": {
+      "forum": "ZymCPON45y",
+      "ratings_avg": 6.4,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "a4S1nQay3b": {
+      "forum": "a4S1nQay3b",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "aJJppqAm6r": {
+      "forum": "aJJppqAm6r",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        4.0
+      ]
+    },
+    "aQKVfKOkR5": {
+      "forum": "aQKVfKOkR5",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "b8TlYh6PN6": {
+      "forum": "b8TlYh6PN6",
+      "ratings_avg": 8.0,
+      "ratings_max": 8.0,
+      "ratings_min": 8.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "b8avf4F2hn": {
+      "forum": "b8avf4F2hn",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "bFYfV6c9zu": {
+      "forum": "bFYfV6c9zu",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "blJXE07r7I": {
+      "forum": "blJXE07r7I",
+      "ratings_avg": 5.6,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        6.0,
+        4.0,
+        8.0
+      ]
+    },
+    "bojVI4l9Kn": {
+      "forum": "bojVI4l9Kn",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        10.0,
+        6.0
+      ]
+    },
+    "bt4Ahpemmi": {
+      "forum": "bt4Ahpemmi",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "btEiAfnLsX": {
+      "forum": "btEiAfnLsX",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "cDc95lucVL": {
+      "forum": "cDc95lucVL",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        4.0
+      ]
+    },
+    "cMEnMVvMw9": {
+      "forum": "cMEnMVvMw9",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "cReExMQLiK": {
+      "forum": "cReExMQLiK",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "cSDXx8V6K9": {
+      "forum": "cSDXx8V6K9",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "cZrTMqYVL6": {
+      "forum": "cZrTMqYVL6",
+      "ratings_avg": 5.2,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        4.0,
+        4.0,
+        6.0
+      ]
+    },
+    "cj1MAx7lKs": {
+      "forum": "cj1MAx7lKs",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "ck0aZTAnwK": {
+      "forum": "ck0aZTAnwK",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "d3CISVVO6v": {
+      "forum": "d3CISVVO6v",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "d7itDxMD1n": {
+      "forum": "d7itDxMD1n",
+      "ratings_avg": 6.4,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "dTWfCLSoyl": {
+      "forum": "dTWfCLSoyl",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "e7pAjJZJWb": {
+      "forum": "e7pAjJZJWb",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "fm79KXJIUQ": {
+      "forum": "fm79KXJIUQ",
+      "ratings_avg": 6.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        10.0,
+        4.0,
+        4.0
+      ]
+    },
+    "g88nt4ieTG": {
+      "forum": "g88nt4ieTG",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        4.0,
+        8.0
+      ]
+    },
+    "gJjRdLG5MY": {
+      "forum": "gJjRdLG5MY",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        2.0,
+        8.0,
+        6.0
+      ]
+    },
+    "gdZ6J5hZzF": {
+      "forum": "gdZ6J5hZzF",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "ghwxbTx7do": {
+      "forum": "ghwxbTx7do",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        2.0,
+        6.0,
+        8.0
+      ]
+    },
+    "gpsczXOsHn": {
+      "forum": "gpsczXOsHn",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "h06l9w1clt": {
+      "forum": "h06l9w1clt",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "hXNApWLBZG": {
+      "forum": "hXNApWLBZG",
+      "ratings_avg": 4.67,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        4.0
+      ]
+    },
+    "hit3hGBheP": {
+      "forum": "hit3hGBheP",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "jHDZEUgS4r": {
+      "forum": "jHDZEUgS4r",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "jY7fAo9rfK": {
+      "forum": "jY7fAo9rfK",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        4.0,
+        4.0
+      ]
+    },
+    "k0Kb1ynFbt": {
+      "forum": "k0Kb1ynFbt",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "k5nIOvYGCL": {
+      "forum": "k5nIOvYGCL",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "kI27Niy4xY": {
+      "forum": "kI27Niy4xY",
+      "ratings_avg": 8.0,
+      "ratings_max": 8.0,
+      "ratings_min": 8.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "kMuQBgPIdg": {
+      "forum": "kMuQBgPIdg",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        4.0
+      ]
+    },
+    "kdeiRledV6": {
+      "forum": "kdeiRledV6",
+      "ratings_avg": 6.5,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        2.0,
+        10.0
+      ]
+    },
+    "kmK3WSCOCT": {
+      "forum": "kmK3WSCOCT",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "kpLRYtPGt3": {
+      "forum": "kpLRYtPGt3",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "krGpQzo8Mz": {
+      "forum": "krGpQzo8Mz",
+      "ratings_avg": 6.0,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        2.0,
+        6.0,
+        10.0,
+        6.0
+      ]
+    },
+    "l1cLdEjESj": {
+      "forum": "l1cLdEjESj",
+      "ratings_avg": 6.67,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "lAlI5FuIf7": {
+      "forum": "lAlI5FuIf7",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "lKqE7UuMvp": {
+      "forum": "lKqE7UuMvp",
+      "ratings_avg": 5.0,
+      "ratings_max": 6.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        2.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "lTaPtGiUUc": {
+      "forum": "lTaPtGiUUc",
+      "ratings_avg": 7.33,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "lg6H2oJPky": {
+      "forum": "lg6H2oJPky",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        2.0
+      ]
+    },
+    "m04JJNeRK6": {
+      "forum": "m04JJNeRK6",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0,
+        8.0
+      ]
+    },
+    "m5byThUSNE": {
+      "forum": "m5byThUSNE",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "m6Hv0yZO3n": {
+      "forum": "m6Hv0yZO3n",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        4.0,
+        4.0
+      ]
+    },
+    "mA78uXqcnl": {
+      "forum": "mA78uXqcnl",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "mIeKe74W43": {
+      "forum": "mIeKe74W43",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        4.0,
+        8.0
+      ]
+    },
+    "mUIGdUTtk2": {
+      "forum": "mUIGdUTtk2",
+      "ratings_avg": 6.0,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        6.0,
+        6.0,
+        2.0
+      ]
+    },
+    "mX8b64iUaa": {
+      "forum": "mX8b64iUaa",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "mytIKuRsSE": {
+      "forum": "mytIKuRsSE",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "mzAchylAtf": {
+      "forum": "mzAchylAtf",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "nCsF3Bsn2n": {
+      "forum": "nCsF3Bsn2n",
+      "ratings_avg": 8.0,
+      "ratings_max": 8.0,
+      "ratings_min": 8.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "nHrYBGujps": {
+      "forum": "nHrYBGujps",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "o29E01Q6bv": {
+      "forum": "o29E01Q6bv",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0,
+        8.0
+      ]
+    },
+    "oIdzliJAeA": {
+      "forum": "oIdzliJAeA",
+      "ratings_avg": 5.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    "oZJFY2BQt2": {
+      "forum": "oZJFY2BQt2",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        4.0
+      ]
+    },
+    "ogMxCjdCCq": {
+      "forum": "ogMxCjdCCq",
+      "ratings_avg": 5.0,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        2.0,
+        8.0
+      ]
+    },
+    "pN261iTKvr": {
+      "forum": "pN261iTKvr",
+      "ratings_avg": 5.0,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        4.0,
+        4.0
+      ]
+    },
+    "pfw176o1YJ": {
+      "forum": "pfw176o1YJ",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "qCsbYJZRA5": {
+      "forum": "qCsbYJZRA5",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "qNlTH4kYJZ": {
+      "forum": "qNlTH4kYJZ",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        8.0,
+        8.0
+      ]
+    },
+    "qmCpJtFZra": {
+      "forum": "qmCpJtFZra",
+      "ratings_avg": 7.0,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        10.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "r2HG3xOMJI": {
+      "forum": "r2HG3xOMJI",
+      "ratings_avg": 5.5,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        2.0,
+        6.0,
+        6.0
+      ]
+    },
+    "r8hzDA3pUY": {
+      "forum": "r8hzDA3pUY",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "rlZeILv3fm": {
+      "forum": "rlZeILv3fm",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        4.0
+      ]
+    },
+    "sC6A1bFDUt": {
+      "forum": "sC6A1bFDUt",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "sSfep4udCb": {
+      "forum": "sSfep4udCb",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        4.0,
+        8.0
+      ]
+    },
+    "sjnErRHXf3": {
+      "forum": "sjnErRHXf3",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "symgW6FhA6": {
+      "forum": "symgW6FhA6",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "t38nZqqi3Z": {
+      "forum": "t38nZqqi3Z",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        6.0
+      ]
+    },
+    "tG6301ORHd": {
+      "forum": "tG6301ORHd",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "uGai5lYHlV": {
+      "forum": "uGai5lYHlV",
+      "ratings_avg": 5.33,
+      "ratings_max": 8.0,
+      "ratings_min": 2.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        2.0
+      ]
+    },
+    "v1DKz5Vxr7": {
+      "forum": "v1DKz5Vxr7",
+      "ratings_avg": 5.5,
+      "ratings_max": 6.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "v2PglvLLKT": {
+      "forum": "v2PglvLLKT",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "vEh1ceS154": {
+      "forum": "vEh1ceS154",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "vH7OAPZ2dR": {
+      "forum": "vH7OAPZ2dR",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "vLFqOoMBol": {
+      "forum": "vLFqOoMBol",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "vebqP5aioj": {
+      "forum": "vebqP5aioj",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        8.0,
+        6.0
+      ]
+    },
+    "vnipyA8c9V": {
+      "forum": "vnipyA8c9V",
+      "ratings_avg": 5.5,
+      "ratings_max": 10.0,
+      "ratings_min": 2.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        2.0,
+        10.0,
+        6.0
+      ]
+    },
+    "wSGle6ag5I": {
+      "forum": "wSGle6ag5I",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "wbttgzp7MT": {
+      "forum": "wbttgzp7MT",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "wsnse46kRO": {
+      "forum": "wsnse46kRO",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        4.0,
+        6.0,
+        8.0
+      ]
+    },
+    "wwPSfcf5Pj": {
+      "forum": "wwPSfcf5Pj",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "x7aLhLMVn1": {
+      "forum": "x7aLhLMVn1",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 3,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0
+      ]
+    },
+    "xBW2FIfswU": {
+      "forum": "xBW2FIfswU",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ]
+    },
+    "xDLE5n3x9Y": {
+      "forum": "xDLE5n3x9Y",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        6.0,
+        8.0
+      ]
+    },
+    "y3oHMcoItR": {
+      "forum": "y3oHMcoItR",
+      "ratings_avg": 7.5,
+      "ratings_max": 10.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        6.0,
+        10.0,
+        10.0
+      ]
+    },
+    "yBFUqdJFZn": {
+      "forum": "yBFUqdJFZn",
+      "ratings_avg": 6.8,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 5,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        6.0,
+        10.0,
+        6.0
+      ]
+    },
+    "yBpzF8hp3J": {
+      "forum": "yBpzF8hp3J",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "yDmb7xAfeb": {
+      "forum": "yDmb7xAfeb",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    },
+    "yKDqg9HwZX": {
+      "forum": "yKDqg9HwZX",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        6.0,
+        8.0,
+        8.0,
+        6.0
+      ]
+    },
+    "yRtgZ1K8hO": {
+      "forum": "yRtgZ1K8hO",
+      "ratings_avg": 8.0,
+      "ratings_max": 10.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        10.0,
+        6.0
+      ]
+    },
+    "yWwrgcBoK3": {
+      "forum": "yWwrgcBoK3",
+      "ratings_avg": 6.0,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        4.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "yfM2e8Icsw": {
+      "forum": "yfM2e8Icsw",
+      "ratings_avg": 6.5,
+      "ratings_max": 8.0,
+      "ratings_min": 4.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        4.0,
+        8.0,
+        6.0
+      ]
+    },
+    "yirunib8l8": {
+      "forum": "yirunib8l8",
+      "ratings_avg": 7.0,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        8.0,
+        6.0,
+        6.0
+      ]
+    },
+    "zrFnwRHuQo": {
+      "forum": "zrFnwRHuQo",
+      "ratings_avg": 7.5,
+      "ratings_max": 8.0,
+      "ratings_min": 6.0,
+      "ratings_n": 4,
+      "ratings_raw": [
+        8.0,
+        6.0,
+        8.0,
+        8.0
+      ]
+    }
+  }
+}
