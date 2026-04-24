@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import PaperCardCompact from "../components/PaperCardCompact.astro";
+import { trends, getPaper } from "../lib/data";
+---
+<Base title="Trends" description="Cross-paper themes emerging from the future-work and limitations sections of ICLR 2026 Oral papers.">
+  <div class="text-xs text-neutral-500 mb-3">
+    <a href="/" class="no-underline text-neutral-500 hover:text-amber-400">← All orals</a>
+  </div>
+  <h1 class="text-2xl font-semibold tracking-tight text-neutral-100">Trends across the 2026 Orals</h1>
+  <p class="text-neutral-400 mt-2 leading-relaxed">
+    Themes identified by <strong>Claude Sonnet 4.6</strong> across the author-stated future-work and limitations
+    sections of every oral paper. Each theme cites the papers that contribute to it.
+    See <a href="/about#labels">how AI content is labeled</a>.
+  </p>
+
+  {trends && trends.themes.length > 0 ? (
+    <div class="mt-8 space-y-10">
+      {trends.themes.map((theme) => (
+        <section class="ai-block">
+          <div class="ai-block-header">Theme · {theme.paper_ids.length} papers</div>
+          <h2 class="text-xl font-semibold text-neutral-100 leading-tight">{theme.headline}</h2>
+          <p class="text-neutral-300 mt-2 leading-relaxed">{theme.explanation}</p>
+
+          {theme.representative_quotes?.length > 0 && (
+            <div class="mt-4 space-y-2">
+              {theme.representative_quotes.map((q) => {
+                const p = getPaper(q.paper_id);
+                return (
+                  <blockquote class="border-l-2 border-neutral-800 pl-3 text-neutral-400 italic text-sm">
+                    “{q.quote}”
+                    {p && (
+                      <div class="not-italic text-[11px] uppercase tracking-wider text-neutral-600 mt-0.5">
+                        — <a href={`/paper/${p.id}/`} class="no-underline text-neutral-500 hover:text-amber-400">{p.title}</a>
+                      </div>
+                    )}
+                  </blockquote>
+                );
+              })}
+            </div>
+          )}
+
+          <details class="mt-4">
+            <summary class="cursor-pointer text-xs uppercase tracking-wider text-neutral-500 font-mono select-none">
+              {theme.paper_ids.length} contributing papers
+            </summary>
+            <div class="mt-2">
+              {theme.paper_ids.map((pid) => {
+                const p = getPaper(pid);
+                return p ? <PaperCardCompact paper={p} showTopic={false} /> : null;
+              })}
+            </div>
+          </details>
+        </section>
+      ))}
+    </div>
+  ) : (
+    <section class="ai-block mt-8">
+      <div class="ai-block-header">Not yet generated</div>
+      <p class="text-neutral-400">
+        The trends analysis hasn't run yet. Once Stage 3 produces <code class="text-amber-300">data/trends.json</code>,
+        this page will populate with themes.
+      </p>
+    </section>
+  )}
+</Base>

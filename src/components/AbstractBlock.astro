@@ -1,0 +1,14 @@
+---
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+const paragraphs = (text || "").split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
+---
+<section class="prose-paper mt-6">
+  {paragraphs.length === 0 ? (
+    <p class="text-neutral-500 italic">No abstract available.</p>
+  ) : (
+    paragraphs.map((p) => <p>{p}</p>)
+  )}
+</section>

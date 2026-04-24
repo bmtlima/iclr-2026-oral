@@ -1,0 +1,130 @@
+---
+import { documents } from "../lib/search-index";
+const docsJson = JSON.stringify(documents);
+---
+<div class="w-full relative">
+  <input
+    id="search-input"
+    type="search"
+    placeholder="Search papers  (press /)"
+    class="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-1.5 text-sm text-neutral-200 placeholder:text-neutral-500 focus:outline-none focus:border-amber-400"
+    autocomplete="off"
+    spellcheck="false"
+  />
+  <div
+    id="search-results"
+    class="hidden absolute left-0 right-0 top-full mt-1 max-h-[60vh] overflow-y-auto bg-neutral-950 border border-neutral-800 rounded shadow-xl z-20 text-sm"
+    role="listbox"
+  >
+  </div>
+</div>
+
+<script is:inline id="search-docs" type="application/json" set:html={docsJson}></script>
+
+<script>
+  import MiniSearch from "minisearch";
+
+  type Doc = {
+    id: string;
+    title: string;
+    authors: string;
+    tldr: string;
+    summary: string;
+    keywords: string;
+    topic: string;
+    room: string;
+    date: string;
+  };
+
+  const raw = document.getElementById("search-docs")?.textContent ?? "[]";
+  const docs: Doc[] = JSON.parse(raw);
+
+  const mini = new MiniSearch({
+    fields: ["title", "authors", "tldr", "summary", "keywords", "topic"],
+    storeFields: ["id", "title", "authors", "topic", "date", "room"],
+    searchOptions: {
+      boost: { title: 3, summary: 1.8, tldr: 1.5, authors: 1.2 },
+      fuzzy: 0.2,
+      prefix: true,
+      combineWith: "AND",
+    },
+  });
+  mini.addAll(docs);
+
+  const input = document.getElementById("search-input") as HTMLInputElement | null;
+  const results = document.getElementById("search-results") as HTMLDivElement | null;
+
+  function render(hits: any[], query: string) {
+    if (!results) return;
+    if (!query) {
+      results.classList.add("hidden");
+      results.innerHTML = "";
+      return;
+    }
+    if (hits.length === 0) {
+      results.classList.remove("hidden");
+      results.innerHTML =
+        `<div class="px-3 py-2 text-neutral-500">No results for "${escapeHtml(query)}"</div>`;
+      return;
+    }
+    const topHits = hits.slice(0, 20);
+    results.innerHTML = topHits
+      .map(
+        (h) => `
+          <a href="/paper/${h.id}/" class="block px-3 py-2 border-b border-neutral-900 last:border-b-0 no-underline hover:bg-neutral-900">
+            <div class="text-neutral-100 leading-snug">${escapeHtml(h.title)}</div>
+            <div class="text-xs text-neutral-500 mt-0.5 flex flex-wrap gap-2">
+              <span>${escapeHtml(h.topic || "")}</span>
+              ${h.date ? `<span>${escapeHtml(h.date)}</span>` : ""}
+              ${h.room ? `<span>${escapeHtml(h.room)}</span>` : ""}
+            </div>
+          </a>`,
+      )
+      .join("");
+    results.classList.remove("hidden");
+  }
+
+  function escapeHtml(s: string): string {
+    return s
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  let lastQuery = "";
+  input?.addEventListener("input", () => {
+    const q = input.value.trim();
+    if (q === lastQuery) return;
+    lastQuery = q;
+    if (!q) {
+      render([], "");
+      return;
+    }
+    const hits = mini.search(q);
+    render(hits, q);
+  });
+
+  input?.addEventListener("blur", () => {
+    // Delay so click on a result still registers.
+    setTimeout(() => results?.classList.add("hidden"), 120);
+  });
+  input?.addEventListener("focus", () => {
+    if (input.value.trim()) results?.classList.remove("hidden");
+  });
+
+  document.addEventListener("keydown", (e) => {
+    const active = document.activeElement as HTMLElement | null;
+    const inField =
+      active && (active.tagName === "INPUT" || active.tagName === "TEXTAREA" || active.isContentEditable);
+    if (e.key === "/" && !inField) {
+      e.preventDefault();
+      input?.focus();
+      input?.select();
+    } else if (e.key === "Escape" && active === input) {
+      input?.blur();
+      if (input) input.value = "";
+      render([], "");
+    }
+  });
+</script>

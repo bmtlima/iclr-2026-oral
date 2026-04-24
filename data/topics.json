@@ -1,0 +1,77 @@
+{
+  "topics": [
+    {
+      "slug": "llms-reasoning",
+      "label": "LLMs & Reasoning",
+      "description": "Language models, chain-of-thought, reasoning, RLHF, alignment post-training, and evaluation of LLM capabilities.",
+      "keywords": ["llm", "language model", "large language", "chain of thought", "chain-of-thought", "cot", "reasoning", "rlhf", "dpo", "preference optimization", "instruction tuning", "instruction-tuned", "sft", "post-training", "in-context", "few-shot", "prompt", "transformer", "gpt", "llama", "tool use", "function calling"]
+    },
+    {
+      "slug": "diffusion-flow",
+      "label": "Diffusion & Flow Matching",
+      "description": "Diffusion models, score-based generative models, flow matching, consistency models, and related generative techniques.",
+      "keywords": ["diffusion", "score-based", "score matching", "flow matching", "rectified flow", "consistency model", "ddpm", "ddim", "denoising", "schrödinger bridge", "schrodinger bridge", "variational diffusion", "latent diffusion"]
+    },
+    {
+      "slug": "rl-agents",
+      "label": "Reinforcement Learning & Agents",
+      "description": "Reinforcement learning, decision-making, autonomous agents, multi-agent systems, and planning.",
+      "keywords": ["reinforcement learning", "rl", "ppo", "q-learning", "q learning", "policy gradient", "actor-critic", "actor critic", "agent", "multi-agent", "planning", "mdp", "pomdp", "bandit", "exploration", "reward", "offline rl", "imitation learning", "behavior cloning", "robotics", "embodied", "llm agent"]
+    },
+    {
+      "slug": "graph-learning",
+      "label": "Graph Learning",
+      "description": "Graph neural networks, structured prediction on graphs, graph theory, knowledge graphs.",
+      "keywords": ["graph neural", "gnn", "graph convolutional", "gcn", "gat", "message passing", "graph transformer", "knowledge graph", "node classification", "link prediction", "graph embedding"]
+    },
+    {
+      "slug": "interpretability",
+      "label": "Interpretability & Mechanistic Understanding",
+      "description": "Mechanistic interpretability, feature visualization, circuit analysis, probing, and explainability.",
+      "keywords": ["interpretability", "mechanistic", "probing", "circuit", "feature visualization", "attribution", "saliency", "explainable", "explainability", "sparse autoencoder", "sae", "activation patching", "feature learning interpretability", "attention analysis", "induction head"]
+    },
+    {
+      "slug": "safety-alignment",
+      "label": "Safety, Privacy & Alignment",
+      "description": "AI safety, alignment, jailbreaks, adversarial robustness, privacy, differential privacy, and membership inference.",
+      "keywords": ["safety", "alignment", "jailbreak", "red team", "adversarial", "robustness", "poisoning", "backdoor", "differential privacy", "membership inference", "unlearning", "watermark", "harmful", "toxicity", "fairness", "bias mitigation", "constitutional"]
+    },
+    {
+      "slug": "theory-optimization",
+      "label": "Theory & Optimization",
+      "description": "Optimization, learning theory, generalization bounds, convergence analysis, statistical learning.",
+      "keywords": ["optimization", "optimizer", "adam", "sgd", "convergence", "generalization bound", "learning theory", "pac", "rademacher", "convex", "non-convex", "nonconvex", "momentum", "regularization theory", "loss landscape", "implicit bias", "neural tangent", "ntk", "mean field"]
+    },
+    {
+      "slug": "vision-3d",
+      "label": "Vision & 3D",
+      "description": "Computer vision, 3D reconstruction, NeRF, Gaussian splatting, video understanding, image generation.",
+      "keywords": ["vision", "image classification", "object detection", "segmentation", "nerf", "neural radiance", "gaussian splatting", "3d reconstruction", "point cloud", "depth estimation", "video understanding", "image generation", "vit", "convnet", "mesh", "sdf", "novel view"]
+    },
+    {
+      "slug": "multimodal-speech",
+      "label": "Multimodal & Speech",
+      "description": "Vision-language, multimodal models, speech recognition, text-to-speech, audio generation.",
+      "keywords": ["multimodal", "vision-language", "vision language", "vlm", "clip", "speech", "audio", "tts", "asr", "text-to-speech", "speech recognition", "cross-modal", "cross modal", "audio-visual", "music", "voice"]
+    },
+    {
+      "slug": "efficiency-systems",
+      "label": "Efficiency, Systems & Kernels",
+      "description": "Efficient inference, quantization, pruning, distillation, sparse models, GPU kernels, ML systems.",
+      "keywords": ["quantization", "pruning", "distillation", "mixture of experts", "moe", "sparse", "kernel", "cuda", "triton", "flash attention", "kv cache", "speculative decoding", "compression", "efficient inference", "low-rank", "lora", "adapter", "memory efficient"]
+    },
+    {
+      "slug": "datasets-benchmarks",
+      "label": "Datasets, Benchmarks & Evaluation",
+      "description": "New datasets, benchmarks, evaluation protocols, and studies of existing benchmarks.",
+      "keywords": ["benchmark", "dataset", "evaluation", "eval protocol", "leaderboard", "test set", "metric", "we introduce a dataset", "we release", "new benchmark"]
+    },
+    {
+      "slug": "causal-statistical",
+      "label": "Causal & Statistical Methods",
+      "description": "Causal inference, statistical methods, uncertainty quantification, Bayesian deep learning, conformal prediction.",
+      "keywords": ["causal", "causality", "counterfactual", "instrumental variable", "do-calculus", "confounder", "bayesian", "uncertainty quantification", "conformal prediction", "gaussian process", "variational inference", "calibration", "out-of-distribution detection"]
+    }
+  ],
+  "overrides": {}
+}

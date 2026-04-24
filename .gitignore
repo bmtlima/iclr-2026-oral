@@ -1,0 +1,32 @@
+
+# Claude Source Control (auto-generated)
+.claude/file-attribution.jsonl
+.claude/session-names.json
+.claude/staged-files.json
+.claude/session-pids.json
+.claude/hooks/log-attribution.sh
+
+# Secrets
+.env
+
+# Node / Astro
+node_modules/
+dist/
+.astro/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local caches (not committed; reproducible)
+.cache/pdfs/
+.cache/pdf_text/
+
+# OS
+.DS_Store
+
+docs/
+
+.cache

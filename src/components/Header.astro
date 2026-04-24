@@ -1,0 +1,17 @@
+---
+import SearchBox from "./SearchBox.astro";
+---
+<header class="border-b border-neutral-900 bg-neutral-950/90 backdrop-blur sticky top-0 z-10">
+  <div class="mx-auto w-full max-w-3xl px-4 md:px-6 py-3 flex items-center gap-3 flex-wrap">
+    <a href="/" class="no-underline text-neutral-100 font-semibold tracking-tight hover:text-amber-400">
+      ICLR 2026 Orals
+    </a>
+    <nav class="flex items-center gap-3 text-sm text-neutral-400">
+      <a href="/trends" class="hover:text-amber-400">Trends</a>
+      <a href="/about" class="hover:text-amber-400">About</a>
+    </nav>
+    <div class="flex-1 min-w-[200px]">
+      <SearchBox />
+    </div>
+  </div>
+</header>

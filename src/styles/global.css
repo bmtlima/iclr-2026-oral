@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-neutral-950 text-neutral-200 antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  a {
+    @apply text-amber-400 hover:text-amber-300 underline-offset-2;
+  }
+  a:hover {
+    @apply underline;
+  }
+  ::selection {
+    @apply bg-amber-400/30 text-amber-100;
+  }
+}
+
+@layer components {
+  .prose-paper {
+    @apply text-neutral-200 leading-relaxed;
+  }
+  .prose-paper p {
+    @apply mb-4;
+  }
+  .ai-block {
+    @apply border-l-2 border-dashed border-neutral-700 pl-4 my-6 text-neutral-300;
+  }
+  .ai-block-header {
+    @apply text-xs uppercase tracking-wider text-neutral-500 mb-2 font-mono;
+  }
+  .topic-pill {
+    @apply inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-neutral-800 text-neutral-300 no-underline hover:bg-neutral-700;
+  }
+  .topic-pill a {
+    @apply no-underline text-inherit;
+  }
+}

@@ -1,0 +1,51 @@
+---
+import Base from "../../layouts/Base.astro";
+import PaperCardCompact from "../../components/PaperCardCompact.astro";
+import { topics, papers, papersByTopic, type Topic, type Paper } from "../../lib/data";
+
+export async function getStaticPaths() {
+  const slugs = new Set<string>(topics.map((t) => t.slug));
+  for (const p of papers) slugs.add(p.topic_slug);
+  return Array.from(slugs).map((slug) => {
+    const topic = topics.find((t) => t.slug === slug);
+    const label = topic?.label ?? (slug === "uncategorized" ? "Uncategorized" : slug);
+    const description = topic?.description ?? "";
+    return {
+      params: { slug },
+      props: { slug, label, description },
+    };
+  });
+}
+
+interface Props {
+  slug: string;
+  label: string;
+  description: string;
+}
+
+const { slug, label, description } = Astro.props;
+const list = papersByTopic(slug);
+
+// Sort: papers with sessions first (by date/time), then rest alphabetically.
+list.sort((a, b) => {
+  const ad = a.session_date ?? "9999";
+  const bd = b.session_date ?? "9999";
+  if (ad !== bd) return ad.localeCompare(bd);
+  const as = a.session_start ?? "";
+  const bs = b.session_start ?? "";
+  if (as !== bs) return as.localeCompare(bs);
+  return a.title.localeCompare(b.title);
+});
+---
+<Base title={label} description={description || `ICLR 2026 Oral papers under ${label}`}>
+  <div class="text-xs text-neutral-500 mb-3">
+    <a href="/" class="no-underline text-neutral-500 hover:text-amber-400">← All orals</a>
+  </div>
+  <h1 class="text-2xl font-semibold tracking-tight text-neutral-100">{label}</h1>
+  {description && <p class="text-neutral-400 mt-2 leading-relaxed">{description}</p>}
+  <p class="text-xs text-neutral-500 font-mono mt-2">{list.length} paper{list.length === 1 ? "" : "s"}</p>
+
+  <section class="mt-6">
+    {list.map((p) => <PaperCardCompact paper={p} showTopic={false} />)}
+  </section>
+</Base>

@@ -1,0 +1,13 @@
+---
+import { papers } from "../lib/data";
+---
+<footer class="border-t border-neutral-900 mt-12">
+  <div class="mx-auto w-full max-w-3xl px-4 md:px-6 py-6 text-xs text-neutral-500 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+    <div>
+      {papers.length} oral papers · Data from <a class="text-neutral-400 hover:text-amber-400" href="https://openreview.net/group?id=ICLR.cc/2026/Conference">OpenReview</a> and <a class="text-neutral-400 hover:text-amber-400" href="https://iclr.cc/virtual/2026/events/oral">iclr.cc</a>.
+    </div>
+    <div>
+      Unofficial · Not affiliated with ICLR · <a class="text-neutral-400 hover:text-amber-400" href="/about">Methodology</a>
+    </div>
+  </div>
+</footer>

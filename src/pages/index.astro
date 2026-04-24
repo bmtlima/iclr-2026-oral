@@ -1,0 +1,53 @@
+---
+import Base from "../layouts/Base.astro";
+import PaperCardCompact from "../components/PaperCardCompact.astro";
+import TopicPill from "../components/TopicPill.astro";
+import { papers, topics, topicCount } from "../lib/data";
+
+// Sort by session date ascending; unknowns at the bottom.
+const sortedPapers = [...papers].sort((a, b) => {
+  const ad = a.session_date ?? "9999";
+  const bd = b.session_date ?? "9999";
+  if (ad !== bd) return ad.localeCompare(bd);
+  return (a.session_start ?? "").localeCompare(b.session_start ?? "");
+});
+
+const topicsWithCounts = topics
+  .map((t) => ({ ...t, count: topicCount(t.slug) }))
+  .filter((t) => t.count > 0)
+  .sort((a, b) => b.count - a.count);
+---
+<Base>
+  <section>
+    <h1 class="text-2xl font-semibold tracking-tight text-neutral-100">
+      All {papers.length} ICLR 2026 Oral papers
+    </h1>
+    <p class="text-neutral-400 mt-2 leading-relaxed">
+      An unofficial reader's companion. Browse by topic, search, read AI-assisted summaries, or jump to the
+      <a href="/trends">cross-paper trends</a> view.
+    </p>
+  </section>
+
+  <section class="mt-8">
+    <h2 class="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-3">Topics</h2>
+    <div class="flex flex-wrap gap-2">
+      {topicsWithCounts.map((t) => (
+        <a href={`/topic/${t.slug}/`} class="no-underline">
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 text-sm rounded-full bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-amber-400 hover:text-amber-400">
+            {t.label}
+            <span class="text-neutral-500 text-xs">{t.count}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-3">
+      All papers · chronological
+    </h2>
+    <div>
+      {sortedPapers.map((p) => <PaperCardCompact paper={p} />)}
+    </div>
+  </section>
+</Base>

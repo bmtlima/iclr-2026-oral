@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import { papers } from "../lib/data";
+---
+<Base title="About" description="How this site is built and where the data comes from.">
+  <article class="prose-paper">
+    <h1 class="text-2xl font-semibold tracking-tight text-neutral-100">About</h1>
+
+    <p class="mt-4">
+      This is an unofficial reader's companion to the {papers.length} Oral papers at ICLR 2026.
+      It exists to make skimming, searching, and getting a sense of where the field is heading easier
+      than clicking through 223 OpenReview pages one at a time.
+    </p>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">What's on this site</h2>
+    <ul class="list-disc pl-5 space-y-1 mt-2 marker:text-neutral-600">
+      <li>All oral papers with title, authors, abstract, PDF link, OpenReview link, session time, and room (when available).</li>
+      <li>A hand-curated taxonomy of 12 topics; each paper is assigned a primary topic via keyword heuristic with manual overrides.</li>
+      <li>Client-side fuzzy search across titles, authors, abstracts, and AI-generated summaries. Press <kbd class="px-1.5 py-0.5 rounded bg-neutral-900 border border-neutral-800 font-mono text-xs">/</kbd> to focus.</li>
+      <li>Per-paper AI-generated enrichment: a one-sentence summary, contributions, methods and datasets, limitations, and future work.</li>
+      <li>A cross-paper <a href="/trends">trends page</a> identifying recurring themes in what authors say comes next.</li>
+    </ul>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">Data sources</h2>
+    <ul class="list-disc pl-5 space-y-1 mt-2 marker:text-neutral-600">
+      <li>Paper metadata: <a href="https://api2.openreview.net">OpenReview API v2</a>, filtered to <code class="text-amber-300">venue = "ICLR 2026 Oral"</code>.</li>
+      <li>Session times and rooms: <a href="https://iclr.cc/virtual/2026/events/oral">iclr.cc/virtual/2026/events/oral</a>.</li>
+      <li>Joined by fuzzy title match (rapidfuzz WRatio, threshold ≥ 88). Unmatched papers show a "session time not found on iclr.cc" notice.</li>
+    </ul>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">How the AI content was produced</h2>
+    <p class="mt-2">
+      Per-paper summaries and extractions: <strong>Claude Haiku 4.5</strong>. Input is the paper title, abstract,
+      and extracted Conclusion / Limitations / Future Work / Discussion sections from the PDF (pdfplumber,
+      pypdf fallback). The model is instructed to return <code class="text-amber-300">[]</code> when information
+      is not explicitly stated in the source text, and to never paraphrase the abstract. Responses are validated
+      against a pydantic schema; invalid responses are retried once with error feedback and then stubbed.
+    </p>
+    <p class="mt-2">
+      Trend themes: <strong>Claude Sonnet 4.6</strong>, given the concatenated future-work and limitations
+      bullets from every paper, asked to identify 5–10 cross-paper themes. Each theme's paper IDs are validated
+      to reference real papers in the dataset.
+    </p>
+
+    <h2 id="labels" class="text-lg font-semibold text-neutral-100 mt-8">How to tell authors' content from AI content</h2>
+    <ul class="list-disc pl-5 space-y-1 mt-2 marker:text-neutral-600">
+      <li><strong>Plain prose</strong> (no border, normal text color) means it comes directly from OpenReview: title, authors, abstract, author-provided TL;DR, keywords, session info.</li>
+      <li><strong>Dashed left border + "Auto-generated" header</strong> means the text was produced by an AI model. The specific model is named inline.</li>
+      <li><strong>Blockquotes marked "from the paper"</strong> are verbatim excerpts that the model pulled from the paper's PDF (e.g., limitations bullets). The structure was AI-selected but the words are the authors'.</li>
+    </ul>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">Copyright and attribution</h2>
+    <p class="mt-2">
+      Paper titles, abstracts, and author lists are shown verbatim from OpenReview and are copyrighted by their
+      authors. This site is not affiliated with ICLR, OpenReview, or Anthropic. Reviewer content is not used.
+    </p>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">Known limitations</h2>
+    <ul class="list-disc pl-5 space-y-1 mt-2 marker:text-neutral-600">
+      <li>Fuzzy title matching may miss papers whose titles were edited between OpenReview and the virtual site.</li>
+      <li>PDF extraction occasionally fails or returns partial text; those papers show only the abstract-derived summary.</li>
+      <li>Topic assignment is a keyword-weighted heuristic; some papers land in "Uncategorized" until manually overridden.</li>
+      <li>The AI may misread or omit details. When in doubt, read the paper.</li>
+    </ul>
+
+    <h2 class="text-lg font-semibold text-neutral-100 mt-8">Code</h2>
+    <p class="mt-2">
+      Built with Astro, Tailwind, and MiniSearch. Hosted on Vercel.
+      Source: <a href="https://github.com/bmtlima/iclr-2026-oral">github.com/bmtlima/iclr-2026-oral</a>.
+      If a paper is miscategorized or an extraction is wrong,
+      <a href="https://github.com/bmtlima/iclr-2026-oral/issues">open an issue</a>.
+    </p>
+  </article>
+</Base>

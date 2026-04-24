@@ -1,0 +1,41 @@
+---
+import type { Paper } from "../lib/data";
+import { enriched, formatSessionDate, formatSessionTime, firstAuthors } from "../lib/data";
+import TopicPill from "./TopicPill.astro";
+
+interface Props {
+  paper: Paper;
+  showTopic?: boolean;
+}
+
+const { paper, showTopic = true } = Astro.props;
+const summary = enriched[paper.id]?.one_sentence_summary?.trim();
+const dateLabel = formatSessionDate(paper);
+const timeLabel = formatSessionTime(paper);
+---
+<article class="py-3 border-b border-neutral-900 last:border-b-0">
+  <div class="flex items-start justify-between gap-3">
+    <div class="min-w-0 flex-1">
+      <h3 class="font-medium leading-snug">
+        <a href={`/paper/${paper.id}/`} class="no-underline text-neutral-100 hover:text-amber-400">
+          {paper.title}
+        </a>
+      </h3>
+      {summary ? (
+        <p class="text-sm text-neutral-400 mt-1 leading-snug">{summary}</p>
+      ) : (
+        <p class="text-sm text-neutral-500 mt-1 leading-snug line-clamp-2">{firstAuthors(paper)}</p>
+      )}
+    </div>
+    {showTopic && (
+      <div class="shrink-0 pt-0.5">
+        <TopicPill slug={paper.topic_slug} />
+      </div>
+    )}
+  </div>
+  {(dateLabel || paper.room) && (
+    <div class="text-xs text-neutral-500 mt-1 font-mono">
+      {dateLabel}{timeLabel ? ` · ${timeLabel}` : ""}{paper.room ? ` · ${paper.room}` : ""}
+    </div>
+  )}
+</article>

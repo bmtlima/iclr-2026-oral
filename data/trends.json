@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-04-24T14:00:00+00:00",
+  "model": "claude-sonnet-4-6 (via claude-code subagent)",
+  "schema_version": 1,
+  "themes": [
+    {
+      "slug": "rl-for-llm-reasoning-alignment",
+      "headline": "Reinforcement learning as the primary post-training axis for LLMs",
+      "explanation": "Across papers on reasoning, code generation, and instruction following, authors consistently identify RL-based fine-tuning—GRPO, PPO variants, trust-region methods—as the key next step beyond supervised learning. Multiple papers note current experiments are limited to small models (≤14B) or narrow task distributions and call for scaling RL to larger architectures, multi-turn settings, and agentic interaction. The convergence on RL as the dominant lever for eliciting complex behaviors marks a field-wide shift away from pure SFT pipelines.",
+      "paper_ids": ["FMjeC9Msws", "AUXvYQlQLZ", "VdLEaGPYWT", "X9D5MVpPJ9", "kdeiRledV6", "cMEnMVvMw9", "FbssShlI4N", "jHDZEUgS4r", "cj1MAx7lKs", "yBFUqdJFZn"],
+      "representative_quotes": [
+        {"paper_id": "FMjeC9Msws", "quote": "Apply framework to multi-turn RL, agentic interaction, and long-form reasoning"},
+        {"paper_id": "X9D5MVpPJ9", "quote": "Scale TROLL to larger models and Mixture-of-Experts architectures"},
+        {"paper_id": "kdeiRledV6", "quote": "Scaling method to larger architectures with adequate compute"}
+      ]
+    },
+    {
+      "slug": "long-context-sequence-generalization",
+      "headline": "Extending models to longer contexts and sequences at inference time",
+      "explanation": "A recurring limitation across language, vision, and audio models is the mismatch between training-time sequence lengths and deployment demands. Authors frequently cite the need for improved positional encodings, KV-cache compression, and memory architectures to handle longer inputs without retraining. Several papers also note the theoretical gap between results proved for short sequences and real-world long-context behaviors, and call for both architectural and theoretical work to bridge it.",
+      "paper_ids": ["k5nIOvYGCL", "M3CeHnZKNC", "1J63FJYJKg", "TLSUIyBIfs", "VKGTGGcwl6", "sSfep4udCb", "MS9nWFY7LG", "vnipyA8c9V", "7cMzTpbJHC", "YuxgSGFaqb"],
+      "representative_quotes": [
+        {"paper_id": "k5nIOvYGCL", "quote": "Develop more advanced memory architectures and training strategies for enhancing long-context capabilities of LLMs"},
+        {"paper_id": "TLSUIyBIfs", "quote": "Characterize how different positional embedding schemes affect minimum training length"},
+        {"paper_id": "VKGTGGcwl6", "quote": "Call on LLM builders to prioritize multi-turn reliability, as known remediations for simpler settings prove ineffective"}
+      ]
+    },
+    {
+      "slug": "multimodal-extension-beyond-text",
+      "headline": "Extending unimodal or text-centric models to video, audio, and additional modalities",
+      "explanation": "Papers working on language, image, or audio systems uniformly name video understanding and generation as an outstanding next step, and many additionally flag missing modalities such as 3D, tabular, radar, or multilingual data. The pattern is consistent: benchmarks, reward models, and generation pipelines built for text or static images are noted as needing systematic generalization to richer temporal and sensory modalities. This reflects a convergence on omni-modal systems as the target architecture.",
+      "paper_ids": ["7WdY3Cojy9", "9C4gVbPqSy", "DkHt2K1g2Y", "JEYWpFGzvn", "krGpQzo8Mz", "TsdlOjcQNu", "e7pAjJZJWb", "tG6301ORHd", "pfw176o1YJ", "jHDZEUgS4r", "r2HG3xOMJI"],
+      "representative_quotes": [
+        {"paper_id": "9C4gVbPqSy", "quote": "Incorporate video understanding and generation tasks into evaluation system"},
+        {"paper_id": "tG6301ORHd", "quote": "Extend ADP beyond text to images, screen recordings, and multimodal data"},
+        {"paper_id": "TsdlOjcQNu", "quote": "Build unified audio representation for more scalable joint training"}
+      ]
+    },
+    {
+      "slug": "agentic-benchmarks-and-training-envs",
+      "headline": "Scalable benchmarks and simulation environments for training and evaluating AI agents",
+      "explanation": "Multiple papers building evaluation suites or agent training environments note that current benchmarks are limited to short, simple tasks and that simulation fidelity, coverage of realistic adversarial conditions, and scalable automated evaluation remain open problems. Authors call for environments that support RL fine-tuning loops, multi-step interaction, and adversarial injection, pointing toward a community-wide infrastructure effort to support the next generation of agent research.",
+      "paper_ids": ["2YvbLQEdYt", "M7TNf5J26u", "cj1MAx7lKs", "LCS1WsGvha", "yWwrgcBoK3", "yBFUqdJFZn", "jHDZEUgS4r", "FtL9eEmU6v", "nHrYBGujps", "8MBYRZHVWT"],
+      "representative_quotes": [
+        {"paper_id": "cj1MAx7lKs", "quote": "Use OpenApps for scaling agent training pipelines via RL fine-tuning"},
+        {"paper_id": "M7TNf5J26u", "quote": "Developing fresh benchmark problems using latest scientific knowledge, contamination-resistant and past training cutoff dates"},
+        {"paper_id": "LCS1WsGvha", "quote": "Enable agents to learn through trial and error inside simulator rather than imitating recorded examples"}
+      ]
+    },
+    {
+      "slug": "llm-safety-and-adversarial-robustness",
+      "headline": "Detecting and defending against adversarial manipulation of LLMs at fine-tuning and inference",
+      "explanation": "Papers on backdoor attacks, steganographic triggers, reward hacking, and model fingerprinting share a common structure: a threat is demonstrated at small scale and authors call for mitigation strategies, extension to larger models, and evaluation against adaptive adversaries. The repeated limitation that experiments are confined to models ≤3B–13B reveals a gap between the studied threat surface and the deployed model scale, and points toward scalable detection and defense as a pressing research direction.",
+      "paper_ids": ["6cEPDGaShH", "yfM2e8Icsw", "PDBBYwd1LY", "yWwrgcBoK3", "lg6H2oJPky", "gdZ6J5hZzF", "Gk7gLAtVDO", "vLFqOoMBol", "t38nZqqi3Z", "UIxHaAqFqQ"],
+      "representative_quotes": [
+        {"paper_id": "yfM2e8Icsw", "quote": "Develop technical mitigations for finetuning-activated attacks"},
+        {"paper_id": "Gk7gLAtVDO", "quote": "Evaluate TRACE on more realistic, heterogeneous loopholes"},
+        {"paper_id": "PDBBYwd1LY", "quote": "Redesign deception benchmarks using statistical methods for detecting deception rather than assuming correctness of LLM responses"}
+      ]
+    },
+    {
+      "slug": "mechanistic-interpretability-tools",
+      "headline": "Mechanistic interpretability: better tools for attributing and auditing model internals",
+      "explanation": "Authors working on sparse autoencoders, causal interventions, computational graphs, and topological analysis of representations consistently note that current tools are insufficiently precise, do not scale to large models, and rely on unvalidated assumptions about linear representations. Future work directions coalesce around more faithful attribution methods, semantic grounding of identified features, and automated verification pipelines, suggesting that interpretability is moving from exploratory to engineering-grade.",
+      "paper_ids": ["CxiNICq0Rr", "gdZ6J5hZzF", "bojVI4l9Kn", "Ml8t8kQMUP", "sC6A1bFDUt", "v2PglvLLKT", "Gk7gLAtVDO", "UIxHaAqFqQ", "A4Us8jxVGq", "cZrTMqYVL6"],
+      "representative_quotes": [
+        {"paper_id": "CxiNICq0Rr", "quote": "Improve interpretability tools such as more faithful sparse autoencoders and more precise attribution methods"},
+        {"paper_id": "bojVI4l9Kn", "quote": "Use learned features as state trackers for detecting significant changes in model behavior"},
+        {"paper_id": "gdZ6J5hZzF", "quote": "Extract concepts and features from low-rank representation space for model-agnostic interpretability"}
+      ]
+    },
+    {
+      "slug": "world-models-for-embodied-ai",
+      "headline": "World models for embodied and robotic agents: dynamics, planning, and sim-to-real transfer",
+      "explanation": "Papers on latent world models, compositional planning, and robot learning share a common roadblock: models trained on narrow domains (robotics, video games) must be generalized to diverse real-world settings, and current approaches lack reliable dynamics modeling and multi-modal conditioning. Authors point toward physics-guided training, integration of language and reward signals, and evaluation on real robotic hardware as the required next steps, reflecting a convergence on interactive simulation as foundational infrastructure for embodied AI.",
+      "paper_ids": ["lTaPtGiUUc", "SzXDuBN8M1", "yDmb7xAfeb", "IZHk6BXBST", "mIeKe74W43", "EQhUvWH78U", "b8avf4F2hn", "LCS1WsGvha"],
+      "representative_quotes": [
+        {"paper_id": "lTaPtGiUUc", "quote": "Enable unified multi-modal conditioning with simultaneous action, language and image signals"},
+        {"paper_id": "yDmb7xAfeb", "quote": "Physics-guided motion generation and physics-aware reinforcement post-training for precise dynamics modeling"},
+        {"paper_id": "SzXDuBN8M1", "quote": "Benchmark on large-scale real robotic datasets"}
+      ]
+    }
+  ]
+}
