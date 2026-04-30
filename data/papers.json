@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T14:23:11+00:00",
+  "generated_at": "2026-04-30T19:48:17+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -471,7 +471,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=zrFnwRHuQo",
-      "pdf_url": "https://openreview.net/pdf/9a161130390debb3978d66e88e7d9bfd000569fc.pdf",
+      "pdf_url": "https://openreview.net/pdf/f7e1ac9210ab5cb8ee9a88b5cdf2d7dc96217f31.pdf",
       "primary_area": "optimization",
       "ratings_avg": 7.5,
       "ratings_max": 8.0,
@@ -4575,7 +4575,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=XFw2EPRUUR",
-      "pdf_url": "https://openreview.net/pdf/8966617b1f1dd1870ce33461db9b825841b9ece5.pdf",
+      "pdf_url": "https://openreview.net/pdf/56b908f8e8dac6f53e07cbaddb6e86bc36c5d9da.pdf",
       "primary_area": "foundation or frontier models, including LLMs",
       "ratings_avg": 6.5,
       "ratings_max": 8.0,
@@ -9313,7 +9313,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=CfZLxT3zIZ",
-      "pdf_url": "https://openreview.net/pdf/0544dbe6129a410f81e3b6f56205708832cd664b.pdf",
+      "pdf_url": "https://openreview.net/pdf/c0691298216202b7723066a6b56688154b806508.pdf",
       "primary_area": "transfer learning, meta learning, and lifelong learning",
       "ratings_avg": 6.0,
       "ratings_max": 6.0,
@@ -10944,7 +10944,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=m6Hv0yZO3n",
-      "pdf_url": "https://openreview.net/pdf/e4171e80b51c334197bb12ae87f9d83ec6773a4a.pdf",
+      "pdf_url": "https://openreview.net/pdf/7e8d9127a883f7c4e5bcfd6431069923743d478c.pdf",
       "primary_area": "optimization",
       "ratings_avg": 5.5,
       "ratings_max": 8.0,
