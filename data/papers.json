@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T13:53:43+00:00",
+  "generated_at": "2026-05-01T19:37:12+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -1872,16 +1872,19 @@
       "iclrcc_url": "https://iclr.cc/virtual/2026/oral/10009701",
       "id": "PDBBYwd1LY",
       "keywords": [
-        "Large Language Model",
-        "Deception",
-        "Lie",
-        "Honest",
-        "Trustworthy"
+        "Large Language Models",
+        "Deception Detection",
+        "Trustworthy AI",
+        "Benign Prompts",
+        "Behavioral Inconsistency",
+        "Deceptive Intention",
+        "Deceptive Behavior",
+        "Self-Initiated Deception"
       ],
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=PDBBYwd1LY",
-      "pdf_url": "https://openreview.net/pdf/2dc62a710830885bb34b48b76f164887f0493916.pdf",
+      "pdf_url": "https://openreview.net/pdf/b3a45910cf09203d0881fa899ce3a31cfdb81be2.pdf",
       "primary_area": "alignment, fairness, safety, privacy, and societal considerations",
       "ratings_avg": 6.67,
       "ratings_max": 8.0,
@@ -9931,19 +9934,20 @@
       "iclrcc_url": "https://iclr.cc/virtual/2026/oral/10009244",
       "id": "UIxHaAqFqQ",
       "keywords": [
-        "Large Language Model",
-        "Representations",
-        "Fingerprint",
-        "Embedding",
-        "Evolution",
-        "Phylogenetic Tree",
-        "DNA",
-        "Dimension Reduction"
+        "Large Language Models",
+        "Functional Representations",
+        "Model Fingerprinting",
+        "Semantic Embeddings",
+        "Model Evolution",
+        "Model Lineage",
+        "Phylogenetic Trees",
+        "Dimensionality Reduction",
+        "Black-box Model Analysis"
       ],
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=UIxHaAqFqQ",
-      "pdf_url": "https://openreview.net/pdf/2391a9b9b80ab4c28c6252cecc4fad8b549ce9a0.pdf",
+      "pdf_url": "https://openreview.net/pdf/f00716835fd981059a4c5cc8d79dcc5c455ad828.pdf",
       "primary_area": "unsupervised, self-supervised, semi-supervised, and supervised representation learning",
       "ratings_avg": 5.5,
       "ratings_max": 6.0,
