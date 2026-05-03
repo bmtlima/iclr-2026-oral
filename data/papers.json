@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T08:15:33+00:00",
+  "generated_at": "2026-05-03T13:48:00+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -2905,7 +2905,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=d7itDxMD1n",
-      "pdf_url": "https://openreview.net/pdf/e86d5acf87ad6f32b37f26f9ac6043f431ba1839.pdf",
+      "pdf_url": "https://openreview.net/pdf/e8a37b4690ced37980ad39f35562dabe39b920fe.pdf",
       "primary_area": "generative models",
       "ratings_avg": 6.4,
       "ratings_max": 8.0,
