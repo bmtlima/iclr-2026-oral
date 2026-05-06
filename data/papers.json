@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T04:02:49+00:00",
+  "generated_at": "2026-05-06T14:45:02+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -1558,7 +1558,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=mytIKuRsSE",
-      "pdf_url": "https://openreview.net/pdf/0d15c4d1cd88bf7ab8a1218003157bb3ded8e1c7.pdf",
+      "pdf_url": "https://openreview.net/pdf/db6369ee846665389355220e96c5e8b37dd89048.pdf",
       "primary_area": "unsupervised, self-supervised, semi-supervised, and supervised representation learning",
       "ratings_avg": 7.5,
       "ratings_max": 8.0,
@@ -8163,7 +8163,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=xBW2FIfswU",
-      "pdf_url": "https://openreview.net/pdf/ce0726d7ddd83cd71ac47df4923e53240b95695d.pdf",
+      "pdf_url": "https://openreview.net/pdf/fcdeeffff3611673cf4ffe4ae9a28ab685f675bf.pdf",
       "primary_area": "learning on time series and dynamical systems",
       "ratings_avg": 6.0,
       "ratings_max": 8.0,
