@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T20:00:47+00:00",
+  "generated_at": "2026-05-07T04:02:51+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -9035,59 +9035,6 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Obtaining high-quality outputs from Large Language Models (LLMs) often depends upon the choice of a sampling-based decoding strategy to probabilistically choose the next token at each generation step. While a variety of such sampling methods have been proposed, their performance can be sensitive to the selection of hyperparameters which may require different settings depending upon the generation task and temperature configuration. In this work, we introduce $p\\textrm{-less}$ sampling: an information-theoretic approach to sampling which dynamically sets a truncation threshold at each decoding step based on the entire token probability distribution. Unlike existing methods, $p\\textrm{-less}$ sampling has no hyperparameters and consistently produces high-quality outputs as temperature increases. We provide theoretical perspectives on $p$-less sampling to ground our proposed method and conduct experiments to empirically validate its effectiveness across a range of math, logical reasoning, and creative writing tasks. Our results demonstrate how $p\\textrm{-less}$ sampling consistently outperforms existing sampling approaches while exhibiting much less degradation in text quality at higher temperature values. We further show how $p$-less achieves greater inference-time efficiency than alternative methods through lower average token sampling times and shorter generation lengths, without sacrificing accuracy.\nFinally, we provide analyses to highlight the benefits of $p\\textrm{-less}$ through qualitative examples, case studies, and diversity assessments.",
-      "arxiv_id": null,
-      "arxiv_match_confidence": null,
-      "arxiv_url": null,
-      "authorids": [
-        "~Runyan_Tan1",
-        "~Shuang_Wu6",
-        "~Phillip_Howard1"
-      ],
-      "authors": [
-        "Runyan Tan",
-        "Shuang Wu",
-        "Phillip Howard"
-      ],
-      "forum": "ItFuNJQGH4",
-      "iclrcc_url": "https://iclr.cc/virtual/2026/oral/10010258",
-      "id": "ItFuNJQGH4",
-      "keywords": [
-        "LLM",
-        "decoding",
-        "sampling",
-        "truncation",
-        "inference",
-        "information-theoretic",
-        "information-theory",
-        "hyperparameterless",
-        "hyperparameter-free",
-        "entropy",
-        "entropy-aware",
-        "distribution-aware",
-        "adaptive",
-        "efficient",
-        "generation"
-      ],
-      "match_confidence": 100.0,
-      "match_method": "exact",
-      "openreview_url": "https://openreview.net/forum?id=ItFuNJQGH4",
-      "pdf_url": "https://openreview.net/pdf/7b5ecf0e2860f8c39490f40c274b32eadeee5c2a.pdf",
-      "primary_area": "probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)",
-      "ratings_avg": 6.0,
-      "ratings_max": 6.0,
-      "ratings_min": 6.0,
-      "ratings_n": 3,
-      "room": "Amphitheater",
-      "session_date": "2026-04-25",
-      "session_end": "11:40",
-      "session_start": "11:30",
-      "title": "$p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
-      "tldr": "P-less Sampling: A parameterless sampling strategy grounded in information theory, where the truncation threshold adapts to the entire token probability distribution, is bounded and valid, and dynamically adjusts with temperature.",
-      "topic_confidence": "auto",
-      "topic_slug": "llms-reasoning"
-    },
-    {
       "abstract": "Video generation models have achieved remarkable progress in creating high-quality, photorealistic content. However, their ability to accurately simulate physical phenomena remains a critical and unresolved challenge. This paper presents $PhyWorldBench$\n, a comprehensive benchmark designed to evaluate video generation models based on their adherence to the laws of physics. The benchmark covers multiple levels of physical phenomena, ranging from fundamental principles like object motion and energy conservation to more complex scenarios involving rigid body interactions and human or animal motion. Additionally, we introduce a novel \"Anti-Physics\" category, where prompts intentionally violate real-world physics, enabling the assessment of whether models can follow such instructions while maintaining logical consistency. Besides large-scale human evaluation, we also design a simple yet effective method that could utilize current MLLM to evaluate the physics realism in a zero-shot fashion. We evaluate 10 state-of-the-art text-to-video generation models, including five open-source and five proprietary models, with a detailed comparison and analysis. we identify pivotal challenges models face in adhering to real-world physics. Through systematic testing of their outputs across 1,050 curated prompts—spanning fundamental, composite, and anti-physics scenarios—we identify pivotal challenges these models face in adhering to real-world physics. We then rigorously examine their performance on diverse physical phenomena with varying prompt types, deriving targeted recommendations for crafting prompts that enhance fidelity to physical principles.",
       "arxiv_id": "2507.13428",
       "arxiv_match_confidence": 100.0,
@@ -9233,6 +9180,59 @@
       "tldr": null,
       "topic_confidence": "auto",
       "topic_slug": "diffusion-flow"
+    },
+    {
+      "abstract": "Obtaining high-quality outputs from Large Language Models (LLMs) often depends upon the choice of a sampling-based decoding strategy to probabilistically choose the next token at each generation step. While a variety of such sampling methods have been proposed, their performance can be sensitive to the selection of hyperparameters which may require different settings depending upon the generation task and temperature configuration. In this work, we introduce $p\\textrm{-less}$ sampling: an information-theoretic approach to sampling which dynamically sets a truncation threshold at each decoding step based on the entire token probability distribution. Unlike existing methods, $p\\textrm{-less}$ sampling has no hyperparameters and consistently produces high-quality outputs as temperature increases. We provide theoretical perspectives on $p$-less sampling to ground our proposed method and conduct experiments to empirically validate its effectiveness across a range of math, logical reasoning, and creative writing tasks. Our results demonstrate how $p\\textrm{-less}$ sampling consistently outperforms existing sampling approaches while exhibiting much less degradation in text quality at higher temperature values. We further show how $p$-less achieves greater inference-time efficiency than alternative methods through lower average token sampling times and shorter generation lengths, without sacrificing accuracy.\nFinally, we provide analyses to highlight the benefits of $p\\textrm{-less}$ through qualitative examples, case studies, and diversity assessments.",
+      "arxiv_id": null,
+      "arxiv_match_confidence": null,
+      "arxiv_url": null,
+      "authorids": [
+        "~Runyan_Tan1",
+        "~Shuang_Wu6",
+        "~Phillip_Howard1"
+      ],
+      "authors": [
+        "Runyan Tan",
+        "Shuang Wu",
+        "Phillip Howard"
+      ],
+      "forum": "ItFuNJQGH4",
+      "iclrcc_url": "https://iclr.cc/virtual/2026/oral/10010258",
+      "id": "ItFuNJQGH4",
+      "keywords": [
+        "LLM",
+        "decoding",
+        "sampling",
+        "truncation",
+        "inference",
+        "information-theoretic",
+        "information-theory",
+        "hyperparameterless",
+        "hyperparameter-free",
+        "entropy",
+        "entropy-aware",
+        "distribution-aware",
+        "adaptive",
+        "efficient",
+        "generation"
+      ],
+      "match_confidence": 95.2,
+      "match_method": "exact",
+      "openreview_url": "https://openreview.net/forum?id=ItFuNJQGH4",
+      "pdf_url": "https://openreview.net/pdf/7b5ecf0e2860f8c39490f40c274b32eadeee5c2a.pdf",
+      "primary_area": "probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)",
+      "ratings_avg": 6.0,
+      "ratings_max": 6.0,
+      "ratings_min": 6.0,
+      "ratings_n": 3,
+      "room": "Amphitheater",
+      "session_date": "2026-04-25",
+      "session_end": "11:40",
+      "session_start": "11:30",
+      "title": "p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+      "tldr": "P-less Sampling: A parameterless sampling strategy grounded in information theory, where the truncation threshold adapts to the entire token probability distribution, is bounded and valid, and dynamically adjusts with temperature.",
+      "topic_confidence": "auto",
+      "topic_slug": "llms-reasoning"
     },
     {
       "abstract": "As Large Language Models (LLMs) are increasingly deployed in real-world applications, balancing helpfulness and safety has become a central challenge. A natural approach is to incorporate safety constraints into Reinforcement Learning from Human Feedback (RLHF), where recent studies have shown promising progress. However, these methods often rely on auxiliary networks or multi-stage pipelines, thereby increasing complexity. In this work, we revisit the original safety alignment objective and show that, under mild assumptions, it admits a closed-form optimal policy. We further derive a provably equivalent and tractable objective, enabling direct optimization. Building on this insight, we propose SafeDPO, a lightweight method that preserves the optimal solution of the underlying safety-constrained objective while requiring only one additional hyperparameter and minimal modifications to existing preference-based training methods. SafeDPO eliminates the need for reward models, cost models, and online sampling, relying only on preference data and safety indicators. Despite its simplicity, SafeDPO achieves competitive safety–helpfulness trade-offs compared to existing safety alignment methods. Experiments on the PKU-SafeRLHF-30K benchmark demonstrate that SafeDPO substantially improves safety while maintaining competitive helpfulness. Ablation studies further show that the additional hyperparameter provides a flexible mechanism to enhance safety while preserving the theoretical optimum, and confirm that SafeDPO scales reliably to LLMs with up to 13B parameters. Overall, our results highlight that a simple, theory-driven objective can provide a lightweight yet effective solution for safety alignment in practice.",
