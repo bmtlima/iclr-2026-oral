@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T08:10:09+00:00",
+  "generated_at": "2026-05-09T13:51:09+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -676,7 +676,7 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Diffusion Transformers offer state-of-the-art fidelity in image and video synthesis, but their iterative sampling process remains a major bottleneck due to the high cost of transformer forward passes at each timestep. To mitigate this, feature caching has emerged as a training-free acceleration technique that reuses hidden representations. However, existing methods often apply a uniform caching strategy across all feature dimensions, ignoring their heterogeneous dynamic behaviors. Therefore, we adopt a new perspective by modeling hidden feature evolution as a mixture of ODEs across dimensions, and introduce \\textbf{HyCa}, a Hybrid ODE solver inspired caching framework that applies dimension-wise caching strategies. HyCa achieves near-lossless acceleration across diverse tasks and models, including 5.55$\\times$ speedup on FLUX, 5.56$\\times$ speedup on HunyuanVideo, 6.24$\\times$ speedup on Qwen-Image and Qwen-Image-Edit without retraining.",
+      "abstract": "Diffusion Transformers offer state-of-the-art fidelity in image and video synthesis, but their iterative sampling process remains a major bottleneck due to the high cost of transformer forward passes at each timestep. To mitigate this, feature caching has emerged as a training-free acceleration technique that reuses hidden representations. However, existing methods often apply a uniform caching strategy across all feature dimensions, ignoring their heterogeneous dynamic behaviors. Therefore, we adopt a new perspective by modeling hidden feature evolution as a mixture of ODEs across dimensions, and introduce HyCa, a Hybrid ODE solver inspired caching framework that applies dimension-wise caching strategies. HyCa achieves near-lossless acceleration across diverse tasks and models, including 5.55 times speedup on FLUX, 5.56 times speedup on HunyuanVideo, 6.24 times speedup on Qwen-Image and Qwen-Image-Edit without retraining.",
       "arxiv_id": "2510.04188",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2510.04188",
@@ -714,7 +714,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=URbsHlTK8c",
-      "pdf_url": "https://openreview.net/pdf/20b483a42082ab8b727756743cde09d20cf64a8b.pdf",
+      "pdf_url": "https://openreview.net/pdf/57e564aba86039f7989083f5d929452b6202ccc0.pdf",
       "primary_area": "generative models",
       "ratings_avg": 7.0,
       "ratings_max": 10.0,
@@ -1336,7 +1336,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=e7pAjJZJWb",
-      "pdf_url": "https://openreview.net/pdf/67ced31580da7f40ec66c16f5a2c652f4dd87503.pdf",
+      "pdf_url": "https://openreview.net/pdf/898db309316bc8bad1facb3393da7921a0067c05.pdf",
       "primary_area": "unsupervised, self-supervised, semi-supervised, and supervised representation learning",
       "ratings_avg": 6.5,
       "ratings_max": 8.0,
@@ -1393,7 +1393,7 @@
       "topic_slug": "datasets-benchmarks"
     },
     {
-      "abstract": "While achieving exceptional generative quality, modern diffusion, flow, and other matching models suffer from slow inference, as they require many steps of iterative generation. Recent distillation methods address this by training efficient one-step generators under the guidance of a pre-trained teacher model. However, these methods are often constrained to only one specific framework, e.g., only to diffusion or only to flow models. Furthermore, these methods are naturally data-free, and to benefit from the usage of real data, it is required to use an additional complex adversarial training with an extra discriminator model. In this paper, we present **RealUID**, a universal distillation framework for all matching models that seamlessly incorporates real data into the distillation procedure without GANs. Our **RealUID** approach offers a simple theoretical foundation that covers previous distillation methods for Flow Matching and Diffusion models, and is also extended to their modifications, such as Bridge Matching and Stochastic Interpolants. The code can be found in https://github.com/David-cripto/RealUID.",
+      "abstract": "While achieving exceptional generative quality, modern diffusion, flow, and other matching models suffer from slow inference, as they require many steps of iterative generation. Recent distillation methods address this problem by training efficient one-step generators under the guidance of a pre-trained teacher model. However, these methods are often constrained to only one specific framework, e.g., only to diffusion or only to flow models. Furthermore, these methods are originally data-free, and to benefit from the usage of real data, it is required to use an additional complex adversarial training with an extra discriminator model. In this paper, we present **RealUID**, a universal distillation framework for all matching models that seamlessly incorporates real data into the distillation procedure without GANs. Our **RealUID** approach offers a simple theoretical foundation that covers previous distillation methods for Flow Matching and Diffusion models, and can be also extended to their modifications, such as Bridge Matching and Stochastic Interpolants. The code can be found in https://github.com/David-cripto/RealUID.",
       "arxiv_id": "2509.22459",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2509.22459",
@@ -1429,7 +1429,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=8NuN5UzXLC",
-      "pdf_url": "https://openreview.net/pdf/238ddf31971e77cdc3dd93216e06a19b1c80726f.pdf",
+      "pdf_url": "https://openreview.net/pdf/52db68d4b5f8cba6a047dbe87c2834284bacfbc2.pdf",
       "primary_area": "generative models",
       "ratings_avg": 6.0,
       "ratings_max": 8.0,
@@ -1515,7 +1515,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=P5B97gZwRb",
-      "pdf_url": "https://openreview.net/pdf/fc925a0a93b6d1d28fe88f0912a7fdd417b652df.pdf",
+      "pdf_url": "https://openreview.net/pdf/8052165fad9c24dde2e57c8f8f2e085f88cd5d80.pdf",
       "primary_area": "other topics in machine learning (i.e., none of the above)",
       "ratings_avg": 4.0,
       "ratings_max": 6.0,
