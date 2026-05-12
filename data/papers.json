@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:49:02+00:00",
+  "generated_at": "2026-05-12T20:06:20+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -6469,7 +6469,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=MpeyjgWbKt",
-      "pdf_url": "https://openreview.net/pdf/f35d79e4a919763a2377dddb70c73ffb1617a468.pdf",
+      "pdf_url": "https://openreview.net/pdf/835f8ee145653e4dc01fed34225933e0d283a1d8.pdf",
       "primary_area": "foundation or frontier models, including LLMs",
       "ratings_avg": 6.67,
       "ratings_max": 8.0,
@@ -8924,7 +8924,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=LaVrNaBNwM",
-      "pdf_url": "https://openreview.net/pdf/30c4808dce409c1c13f400191c77ebc2dc966531.pdf",
+      "pdf_url": "https://openreview.net/pdf/49c55790516f2b6dabb397d966773fc885f9ae40.pdf",
       "primary_area": "foundation or frontier models, including LLMs",
       "ratings_avg": 5.0,
       "ratings_max": 8.0,
@@ -8935,7 +8935,7 @@
       "session_end": "11:28",
       "session_start": "11:18",
       "title": "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding",
-      "tldr": null,
+      "tldr": "Hierarchical speculative decoding enables lossless long-prefix verification with substantially improved decoding efficiency.",
       "topic_confidence": "auto",
       "topic_slug": "efficiency-systems"
     },
@@ -10010,7 +10010,7 @@
       "topic_slug": "theory-optimization"
     },
     {
-      "abstract": "Diffusion-based generative models have reformed generative AI, and have enabled new capabilities in the science domain, for example, generating 3D structures of molecules. Due to the intrinsic problem structure of certain tasks, there is often a symmetry in the system, which identifies objects that can be converted by a group action as equivalent, hence the target distribution is essentially defined on the quotient space with respect to the group. In this work, we establish a formal framework for diffusion modeling on a general quotient space, and apply it to molecular structure generation which follows the special Euclidean group SE(3) symmetry. The framework reduces the necessity of learning the component corresponding to the group action, hence simplifies learning difficulty over conventional group-equivariant diffusion models, and the sampler guarantees recovering the target distribution, while heuristic alignment strategies lack proper samplers. The arguments are empirically validated on structure generation for small molecules and proteins, indicating that the principled quotient-space diffusion model provides a new  framework that outperforms previous symmetry treatments.",
+      "abstract": "Diffusion-based generative models have reformed generative AI, and also enabled new capabilities in the science domain, _e.g._, fast generation of 3D structures of molecules. In such tasks, there is often a _symmetry_ in the system, identifying elements that can be converted by certain transformations as equivalent. Equivariant diffusion models guarantee a symmetric distribution, but miss the opportunity to make learning easier, while alignment-based simplification attempts fail to preserve the target distribution.\nIn this work, we develop _quotient-space diffusion models_, a principled generative framework to fully handle and leverage symmetry.\nBy viewing the intrinsic generation process on the quotient space, the exact construction that removes symmetry redundancy, the framework simplifies learning by allowing model output to have an arbitrary intra-equivalence-class movement, while generating the correct symmetric target distribution with guarantee.\nWe instantiate the framework for molecular structure generation which follows $\\\\mathrm{SE}(3)$ (rigid-body movement) symmetry.\nIt improves the performance over equivariant diffusion models and outperforms alignment-based methods universally for small molecules and proteins, representing a new framework that surpasses previous symmetry treatments in generative models.",
       "arxiv_id": "2604.21809",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2604.21809",
@@ -10044,7 +10044,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=3JPAkwSVc4",
-      "pdf_url": "https://openreview.net/pdf/5a0414e9d8a59185fcb5f06fa53b0b556d3d6ad4.pdf",
+      "pdf_url": "https://openreview.net/pdf/67810a37c36c7428190d7c0499920cde821aa7b6.pdf",
       "primary_area": "generative models",
       "ratings_avg": 7.5,
       "ratings_max": 10.0,
