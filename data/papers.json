@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T20:06:20+00:00",
+  "generated_at": "2026-05-13T04:11:15+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -2257,7 +2257,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=A4Us8jxVGq",
-      "pdf_url": "https://openreview.net/pdf/cc45619418bff43c1c0803aaac4cde5174a42aed.pdf",
+      "pdf_url": "https://openreview.net/pdf/e361538eded72cc39359554f1abcb32444e25c63.pdf",
       "primary_area": "interpretability and explainable AI",
       "ratings_avg": 7.2,
       "ratings_max": 8.0,
@@ -2302,7 +2302,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=Gk7gLAtVDO",
-      "pdf_url": "https://openreview.net/pdf/5e18d2c55bf33b4b54a57fd65a4b776efee1d70b.pdf",
+      "pdf_url": "https://openreview.net/pdf/b247aaee550b9df9c740bbd85ea933a55c977ca8.pdf",
       "primary_area": "alignment, fairness, safety, privacy, and societal considerations",
       "ratings_avg": 7.5,
       "ratings_max": 8.0,
@@ -7581,7 +7581,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=3RQ863cRbx",
-      "pdf_url": "https://openreview.net/pdf/bab793b465eebff607494839c3bf841435b49d20.pdf",
+      "pdf_url": "https://openreview.net/pdf/a5cbf39d7924cd3639a8a7a69c8a762bd4c9bc97.pdf",
       "primary_area": "interpretability and explainable AI",
       "ratings_avg": 6.5,
       "ratings_max": 8.0,
