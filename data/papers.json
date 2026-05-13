@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T04:11:15+00:00",
+  "generated_at": "2026-05-13T09:18:52+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -5372,7 +5372,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=0jHyEKHDyx",
-      "pdf_url": "https://openreview.net/pdf/72169abae5d6bb0dcafa7823644d6e10fe67f55d.pdf",
+      "pdf_url": "https://openreview.net/pdf/3a44b0a0acc79b38b8a9e1abab024efcc95a430d.pdf",
       "primary_area": "optimization",
       "ratings_avg": 6.5,
       "ratings_max": 8.0,
@@ -6525,10 +6525,10 @@
         "code edit",
         "edit"
       ],
-      "match_confidence": 100.0,
+      "match_confidence": 99.4,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=FtL9eEmU6v",
-      "pdf_url": "https://openreview.net/pdf/a544780a43f5644beec9046133518f7a0c3c5d24.pdf",
+      "pdf_url": "https://openreview.net/pdf/d931a5f52b2cfb91dbcdaedeb77a9f4a3f3d7b0f.pdf",
       "primary_area": "datasets and benchmarks",
       "ratings_avg": 7.5,
       "ratings_max": 10.0,
@@ -6538,7 +6538,7 @@
       "session_date": "2026-04-24",
       "session_end": "15:49",
       "session_start": "15:39",
-      "title": "EditBench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits",
+      "title": "EDIT-Bench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits",
       "tldr": "We propose a new benchmark for evaluating an LLM's ability to perform code edits. Our data is gathered from in-the-wild code edits, leading to more realistic problems.",
       "topic_confidence": "auto",
       "topic_slug": "datasets-benchmarks"
