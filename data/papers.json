@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:13:32+00:00",
+  "generated_at": "2026-05-13T20:07:23+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -441,7 +441,7 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Decentralized learning provides a scalable alternative to parameter-server-based training, yet its performance is often hindered by limited peer-to-peer communication. \nIn this paper, we study how communication should be scheduled over time, including determining when and how frequently devices synchronize. \nCounterintuitive empirical results show that concentrating communication budgets in the later stages of decentralized training remarkably improves global test performance.\nSurprisingly, we uncover that fully connected communication at the final step, implemented by a single global merging, can significantly improve the performance of decentralized learning under high data heterogeneity. \nOur theoretical contributions, which explain these phenomena, are the first to establish that the globally merged model of decentralized SGD can match the convergence rate of parallel SGD.\nTechnically, we reinterpret part of the discrepancy among local models, which were previously considered as detrimental noise, as constructive components essential for matching this rate. \nThis work provides evidence that  decentralized learning is able to generalize under high data heterogeneity and limited communication, while offering broad new avenues for model merging research.",
+      "abstract": "Decentralized learning provides a scalable alternative to parameter-server-based training, yet its performance is often hindered by limited peer-to-peer communication. \nIn this paper, we study how communication should be scheduled over time, including determining when and how frequently devices synchronize. \nCounterintuitive empirical results show that concentrating communication budgets in the later stages of decentralized training substantially improves global test performance.\nSurprisingly, we find that fully connected communication at the final step, implemented as a single global merge, can significantly improve the performance of decentralized learning under high data heterogeneity. \nOur theoretical contributions, which explain these phenomena, are the first to establish that the globally merged model of decentralized SGD can match the convergence rate of parallel SGD.\nTechnically, we reinterpret part of the discrepancy among local models, which was previously considered detrimental noise, as a constructive component essential for matching this rate.\nThis work provides evidence that  decentralized learning can generalize under high data heterogeneity and limited communication, while offering broad new avenues for model merging research.",
       "arxiv_id": "2507.06542",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2507.06542",
@@ -471,7 +471,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=zrFnwRHuQo",
-      "pdf_url": "https://openreview.net/pdf/f7e1ac9210ab5cb8ee9a88b5cdf2d7dc96217f31.pdf",
+      "pdf_url": "https://openreview.net/pdf/35033b0a0d437cfea192f0cf23a9694d0219c563.pdf",
       "primary_area": "optimization",
       "ratings_avg": 7.5,
       "ratings_max": 8.0,
@@ -1626,7 +1626,7 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Algorithms increasingly serve as information mediators -- from social media feeds and targeted advertising to the increasing ubiquity of LLMs. This engenders a joint process where agents combine private, algorithmically-mediated signals with observational learning from peers to arrive at decisions. To study such settings, we introduce a model of controlled sequential social learning in which an information-mediating planner (e.g., an LLM) controls the information precision of agents while they also learn from the decisions of earlier agents. The planner may seek to improve social welfare (an altruistic planner) or to induce a specific action the planner prefers (a biased planner). Our framework presents a new optimization problem for social learning that combines dynamic programming with decentralized action choices and Bayesian belief updates. In this setting, we prove the convexity of the value function and characterize the optimal policies of altruistic and biased planners, which attain desired tradeoffs between the costs they incur and the payoffs they earn from induced agent choices. The characterization reveals that the optimal planner operates in different modes depending on the range of belief values. The modes include investing the maximum allowed resource, not investing any resource, or the investment increasing or decreasing with increase in the belief. Notably, for some ranges of belief the biased planner even intentionally obfuscates the agents' signals. Even under stringent transparency constraints—information parity with individuals, no lying or cherry‑picking, and full observability—we show that information mediation can substantially shift social welfare in either direction. We complement our theory with simulations in which LLMs act as both planner and agents. Notably, the LLM-based planner in our simulations exhibits emergent strategic behavior in steering public opinion that broadly mirrors the trends predicted, though key deviations suggest the influence of non-Bayesian reasoning—consistent with the cognitive patterns of both human users and LLMs trained on human-like data. Together, we establish our framework as a tractable basis for studying the impact and regulation of LLM information mediators that corresponds to real behavior.",
+      "abstract": "Algorithms increasingly serve as information mediators--from social media feeds and targeted advertising to the increasing ubiquity of LLMs. This engenders a joint process where agents combine private, algorithmically-mediated signals with observational learning from peers to arrive at decisions. To study such settings, we introduce a model of controlled sequential social learning in which an information-mediating planner (e.g., an LLM) controls the information precision of agents while they also learn from the decisions of earlier agents. The planner may seek to improve social welfare (an altruistic planner) or to induce a specific action the planner prefers (a biased planner). Our framework presents a new optimization problem for social learning that combines dynamic programming with decentralized action choices and Bayesian belief updates. In this setting, we prove the convexity of the value function and characterize the optimal policies of altruistic and biased planners, which attain desired tradeoffs between the costs they incur and the payoffs they earn from induced agent choices. The characterization reveals that the optimal planner operates in different modes depending on the range of belief values. The modes include investing the maximum allowed resource, not investing any resource, or the investment increasing or decreasing with increase in the belief. Notably, for some ranges of belief the biased planner even intentionally obfuscates the agents' signals. Even under stringent transparency constraints—information parity with individuals, no lying or cherry‑picking, and full observability—we show that information mediation can substantially shift social welfare in either direction. We complement our theory with simulations in which LLMs act as both planner and agents. Notably, the LLM-based planner in our simulations exhibits emergent strategic behavior in steering public opinion that broadly mirrors the trends predicted, though key deviations suggest the influence of non-Bayesian reasoning—consistent with the cognitive patterns of both human users and LLMs trained on human-like data. Together, we establish our framework as a tractable basis for studying the impact and regulation of LLM information mediators that corresponds to real behavior.",
       "arxiv_id": "2504.02648",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2504.02648",
@@ -1655,7 +1655,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=RtS4UqSmNt",
-      "pdf_url": "https://openreview.net/pdf/c40755212d6d8f577845e28c8a640ebe74050a67.pdf",
+      "pdf_url": "https://openreview.net/pdf/53be8f05da195d7c51bad1833cd8bc30851fbefa.pdf",
       "primary_area": "alignment, fairness, safety, privacy, and societal considerations",
       "ratings_avg": 6.5,
       "ratings_max": 8.0,
@@ -3664,7 +3664,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=MS9nWFY7LG",
-      "pdf_url": "https://openreview.net/pdf/4949b625d7a7f3fa5138bd6098f1328306e019f6.pdf",
+      "pdf_url": "https://openreview.net/pdf/3b7206769320cfc217cf32f177625c5ddda9e42d.pdf",
       "primary_area": "reinforcement learning",
       "ratings_avg": 6.0,
       "ratings_max": 8.0,
@@ -4669,7 +4669,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=Q3yLIIkt7z",
-      "pdf_url": "https://openreview.net/pdf/d77753d2a6ff0d59aede0d21361af689e520c6b6.pdf",
+      "pdf_url": "https://openreview.net/pdf/e3a3d861b1ad195009c1130cfe17c2f110aa0ab9.pdf",
       "primary_area": "learning theory",
       "ratings_avg": 7.0,
       "ratings_max": 8.0,
@@ -5536,7 +5536,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=FdkPOHlChS",
-      "pdf_url": "https://openreview.net/pdf/2ea972b036236f756767bbc4abcddd6649dbe767.pdf",
+      "pdf_url": "https://openreview.net/pdf/b88eeebbb8e568feca37ad74400d1cb39a270db6.pdf",
       "primary_area": "other topics in machine learning (i.e., none of the above)",
       "ratings_avg": 5.5,
       "ratings_max": 10.0,
@@ -7510,7 +7510,7 @@
       "topic_slug": "diffusion-flow"
     },
     {
-      "abstract": "We propose succinctness as a measure of expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, verifying even simple properties of transformers is shown to be provably intractable (i.e. EXPSPACE-complete).",
+      "abstract": "We study succinctness as a measure of the expressive power of transformers. Succinctness---how compactly a formalism can describe a\nlanguage relative to other formalisms---is a classical notion in logic and automata theory. We prove that fixed-precision transformers are remarkably succinct: they can be exponentially more succinct than both linear temporal logic (LTL) and recurrent neural networks, and, by extension, state-space models, and doubly exponentially more succinct than finite automata. In other words, there exist families of languages describable by polynomial-size transformers whose smallest equivalent LTL formula or recurrent neural network is exponentially large, and whose smallest equivalent automaton is doubly exponentially large. We also establish matching upper bounds, showing that any fixed-precision transformer can be converted to an LTL formula with at most an exponential blow-up---improving a prior doubly exponential translation. As a consequence of this succinctness, we show that basic verification problems for transformers, such as emptiness and equivalence, are provably intractable: specifically, EXPSPACE-complete.",
       "arxiv_id": "2510.19315",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2510.19315",
@@ -7537,7 +7537,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=Yxz92UuPLQ",
-      "pdf_url": "https://openreview.net/pdf/8cc9b8b245ada05cf80fc30be0c123f83bf38d59.pdf",
+      "pdf_url": "https://openreview.net/pdf/2609a3573401d6a46fa0c8ec61016a223312f41a.pdf",
       "primary_area": "neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)",
       "ratings_avg": 7.0,
       "ratings_max": 8.0,
