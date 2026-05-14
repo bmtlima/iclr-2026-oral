@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T20:07:23+00:00",
+  "generated_at": "2026-05-14T04:11:18+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -3565,7 +3565,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=mUIGdUTtk2",
-      "pdf_url": "https://openreview.net/pdf/1f1fc32c3082a90e41da77c72e75218610c55ca8.pdf",
+      "pdf_url": "https://openreview.net/pdf/f07bdd7b58a62e3bff708442925a6a7a61bb3b1d.pdf",
       "primary_area": "applications to computer vision, audio, language, and other modalities",
       "ratings_avg": 6.0,
       "ratings_max": 10.0,
@@ -6770,7 +6770,7 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Large Language Models (LLMs) are pre-trained on large data from different sources and domains. These datasets often contain trillions of tokens, including large portions of copyrighted or proprietary content, which raises questions about the legal use of such models. This underscores the need for truly open pre-training data that complies with data security regulations. In this paper, we introduce Common Corpus, the largest open dataset for LLM pre-training. The data assembled in Common Corpus are either uncopyrighted or under permissive licenses and amount to about two trillion tokens. The dataset contains a wide variety of languages, ranging from the high-resource European languages to some low-resource languages rarely represented in pre-training datasets. In addition, it includes a large amount of code data. The diversity of data sources in terms of covered domains and time periods opens up the paths for both research and entrepreneurial needs in diverse areas of knowledge. In this paper, we present the detailed provenance of data assembling and the details of dataset filtering and curation. We train two small language models on Common Corpus and find that they perform comparably to other models of their size, indicating that our dataset is suitable for multilingual pretraining. Common Corpus represents a key contribution to the ecosystem for open science research on Large Language Models.",
+      "abstract": "Large Language Models (LLMs) are pre-trained on large amounts of data from different sources and domains. Such datasets often contain trillions of tokens, including large portions of copyrighted or proprietary content, which raises questions about the legal use of such models. This underscores the need for truly open pre-training data that complies with data security regulations. In this paper, we introduce Common Corpus, the largest open dataset for LLM pre-training. The data assembled in Common Corpus are either uncopyrighted or under open licenses, totaling about two trillion tokens. The dataset contains a wide variety of languages, ranging from the high-resource European languages to some low-resource languages rarely represented in pre-training datasets. In addition, it includes a large amount of code data. The diversity of data sources in terms of covered domains and time periods opens up the paths for both research and entrepreneurial needs across diverse areas of knowledge. In this paper, we present the detailed provenance of data assembling and the details of dataset filtering and curation. We train two small language models on Common Corpus and find that they perform comparably to other models of their size, indicating that our dataset is suitable for multilingual pretraining. Common Corpus represents a key contribution to the ecosystem for open science research on Large Language Models.",
       "arxiv_id": "2506.01732",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2506.01732",
@@ -6812,7 +6812,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=0wSlFpMsGb",
-      "pdf_url": "https://openreview.net/pdf/5fce22a4241a64a4513a1b53831a96fe65800926.pdf",
+      "pdf_url": "https://openreview.net/pdf/1e3ab3234cb83060886db5fe409737a09aac7530.pdf",
       "primary_area": "datasets and benchmarks",
       "ratings_avg": 7.0,
       "ratings_max": 8.0,
@@ -7537,7 +7537,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=Yxz92UuPLQ",
-      "pdf_url": "https://openreview.net/pdf/2609a3573401d6a46fa0c8ec61016a223312f41a.pdf",
+      "pdf_url": "https://openreview.net/pdf/90f081a717c7ae3f8ecb46283511beb0acf60765.pdf",
       "primary_area": "neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)",
       "ratings_avg": 7.0,
       "ratings_max": 8.0,
