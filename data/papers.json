@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T08:49:52+00:00",
+  "generated_at": "2026-05-14T14:38:19+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -4897,7 +4897,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=T5wkZJqzkz",
-      "pdf_url": "https://openreview.net/pdf/c9747e275519d936f3f97e7e6641e920f93bbd8c.pdf",
+      "pdf_url": "https://openreview.net/pdf/4dcd3d7a67233a26ca4377d23689635de8e46326.pdf",
       "primary_area": "foundation or frontier models, including LLMs",
       "ratings_avg": 6.0,
       "ratings_max": 6.0,
@@ -10727,7 +10727,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=8MBYRZHVWT",
-      "pdf_url": "https://openreview.net/pdf/3bf61c596007a47bbf129523135928667cf1c2bf.pdf",
+      "pdf_url": "https://openreview.net/pdf/4e2fdabaa98f46ab5d35ee26b0185ed5bac51700.pdf",
       "primary_area": "datasets and benchmarks",
       "ratings_avg": 6.67,
       "ratings_max": 8.0,
@@ -11077,7 +11077,7 @@
       "session_end": "16:25",
       "session_start": "16:15",
       "title": "Fast training of accurate physics-informed neural networks without gradient descent",
-      "tldr": "Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of Physics-Informed Neural Networks (PINNs) and makes PINNs highly realize high-precision, temporal causality, and extremely fast training.",
+      "tldr": "Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of Physics-Informed Neural Networks (PINNs) and makes PINNs realize high-precision, temporal causality, and extremely fast training.",
       "topic_confidence": "auto",
       "topic_slug": "theory-optimization"
     },
