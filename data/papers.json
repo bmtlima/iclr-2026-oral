@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T04:40:25+00:00",
+  "generated_at": "2026-05-18T10:39:45+00:00",
   "papers": [
     {
       "abstract": "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
@@ -2166,7 +2166,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=yirunib8l8",
-      "pdf_url": "https://openreview.net/pdf/a5eb76c5e17d01fef40931fcce72481b6dee5da3.pdf",
+      "pdf_url": "https://openreview.net/pdf/9d69fc515ade062e6a76a0e4c7e6835ad3e21402.pdf",
       "primary_area": "applications to computer vision, audio, language, and other modalities",
       "ratings_avg": 7.0,
       "ratings_max": 8.0,
@@ -5638,7 +5638,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=ck0aZTAnwK",
-      "pdf_url": "https://openreview.net/pdf/ed1bbd3acc5029afbdf8acfbe4d9f86e3e982e36.pdf",
+      "pdf_url": "https://openreview.net/pdf/c14d07d20e337d67cc07afc95a56004030403f11.pdf",
       "primary_area": "foundation or frontier models, including LLMs",
       "ratings_avg": 7.5,
       "ratings_max": 8.0,
@@ -8393,7 +8393,7 @@
       "topic_slug": "llms-reasoning"
     },
     {
-      "abstract": "Diffusion language models have emerged as a powerful alternative to autoregressive models, enabling fast inference through more flexible and parallel generation paths. This flexibility of sampling is unlocked by new engineered sampling strategies, or *planners*, that select more favorable generation paths by iteratively planning---versus uniformly at random---where to denoise along the sequence. However, by modifying the reverse paths via planning, planners create an irrevocable mismatch between the uniformly random denoising paths during training and planning-based inference. In this paper, we systematically investigate the mismatch of discrete diffusion training and inference under planning and theoretically prove that the standard discrete diffusion training evidence lower bound (ELBO) does not accurately describe a denoiser that uses a non-uniform planner. To address this gap, we derive a new planned evidence lower bound (P-ELBO) that incorporates planner-based reverse dynamics directly into the training objective.\nUsing the P-ELBO, we introduce *Planner Aware Path Learning* (PAPL), a novel training scheme that aligns training and inference under a planned denoiser.\nPAPL is implemented as a simple yet effective modification to the standard masked discrete diffusion loss, making it widely applicable and easy to adopt.\nEmpirically, we show PAPL delivers consistent gains across domains, including a 40\\% relative improvement in protein sequences, improved text generation with up to a $4\\times$ relative MAUVE gain, and 23\\% relative improvement in code generation HumanEval pass@10.",
+      "abstract": "Diffusion language models have emerged as a powerful alternative to autoregressive models, enabling fast inference through more flexible and parallel generation paths. This flexibility of sampling is unlocked by new engineered sampling strategies, or *planners*, that select more favorable generation paths by iteratively planning---versus uniformly at random---where to denoise along the sequence. However, by modifying the reverse paths via planning, planners create an irrevocable mismatch between the uniformly random denoising paths assumed during training and planning-based inference. In this paper, we systematically investigate the mismatch of discrete diffusion training and inference under planning and theoretically prove that the standard discrete diffusion training evidence lower bound (ELBO) does not accurately describe a denoiser that uses a non-uniform planner. To address this gap, we derive a new planned evidence lower bound (P-ELBO) that incorporates planner-based reverse dynamics directly into the training objective.\nUsing the P-ELBO, we introduce *Planner Aware Path Learning* (PAPL), a novel training scheme that aligns training and inference under a planned denoiser.\nPAPL is implemented as a simple yet effective modification to the standard masked discrete diffusion loss, making it widely applicable and easy to adopt.\nEmpirically, we show PAPL delivers consistent gains across domains, including a 40\\% relative improvement in protein sequences, improved text generation with up to a $4\\times$ relative MAUVE gain, and 23\\% relative improvement in code generation HumanEval pass@10. Code is available at https://github.com/pengzhangzhi/PAPL",
       "arxiv_id": "2509.23405",
       "arxiv_match_confidence": 100.0,
       "arxiv_url": "https://arxiv.org/abs/2509.23405",
@@ -8404,8 +8404,8 @@
         "~Shuibai_Zhang1",
         "~Michael_M._Bronstein1",
         "~Anru_Zhang3",
-        "~Joey_Bose1",
-        "~Alexander_Tong1"
+        "~Alexander_Tong1",
+        "~Joey_Bose1"
       ],
       "authors": [
         "Fred Zhangzhi Peng",
@@ -8414,8 +8414,8 @@
         "Shuibai Zhang",
         "Michael M. Bronstein",
         "Anru Zhang",
-        "Joey Bose",
-        "Alexander Tong"
+        "Alexander Tong",
+        "Joey Bose"
       ],
       "forum": "lAlI5FuIf7",
       "iclrcc_url": "https://iclr.cc/virtual/2026/oral/10007708",
@@ -8431,7 +8431,7 @@
       "match_confidence": 100.0,
       "match_method": "exact",
       "openreview_url": "https://openreview.net/forum?id=lAlI5FuIf7",
-      "pdf_url": "https://openreview.net/pdf/e2c06fe058e41a1c66653e7d6d242b585d84a215.pdf",
+      "pdf_url": "https://openreview.net/pdf/b50700780c14ca43a05521fe099d0d649721f917.pdf",
       "primary_area": "generative models",
       "ratings_avg": 5.5,
       "ratings_max": 8.0,
